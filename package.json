@@ -1,6 +1,6 @@
 {
-  "name": "MBot",
-  "version": "0.1.0",
+  "name": "mesbot",
+  "version": "0.1.1",
   "description": "Facebook Messenger Bot Framework",
   "main": "index.js",
   "scripts": {
@@ -27,10 +27,12 @@
   "homepage": "https://github.com/andrijdavid/mbot#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "compromise": "^7.0.28",
     "config": "^1.21.0",
     "dictionary-fr": "^1.2.0",
     "eventemitter3": "^1.2.0",
     "express": "^4.14.0",
+    "franc": "^2.0.0",
     "gender-fr": "^1.0.4",
     "is-online": "^6.1.0",
     "localtunnel": "^1.8.2",

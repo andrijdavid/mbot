@@ -20,12 +20,12 @@ MBot is a simple but powerful JavaScript Framework to build Facebook Messenger's
 ## Usage
 
 ```
-$ npm install mbot --save
+$ npm install mesbot --save
 ```
 
 ```javascript
 'use strict';
-const MBot = require('mbot');
+const MBot = require('mesbot');
 
 const bot = new MBot({
   accessToken: 'FB_ACCESS_TOKEN',
@@ -41,12 +41,6 @@ bot.on('message', (payload, chat) => {
 bot.start();
 ```
 
-## Video Example
-
-Creating a Giphy Chat Bot in 3 minutes:
-
-[![IMG](http://i.imgur.com/gDL7Tw2.gif)](https://www.youtube.com/watch?v=flYeg7Hdxzw&feature=youtu.be)
-
 ## Getting Started
 
 - Install MBot via NPM, create a new `index.js`, require MBot and create a new bot instance using your Facebook Page's / App's `accessToken`, `verifyToken` and `appSecret`:
@@ -54,7 +48,7 @@ Creating a Giphy Chat Bot in 3 minutes:
 ```javascript
 // index.js
 'use strict';
-const MBot = require('mbot');
+const MBot = require('mesbot');
 
 const bot = new MBot({
   accessToken: 'FB_ACCESS_TOKEN',
