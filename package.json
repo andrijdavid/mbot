@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/andrijdavid/mbot#readme",
   "dependencies": {
+    "Sentimental": "^1.0.1",
     "body-parser": "^1.15.2",
     "compromise": "^7.0.28",
     "config": "^1.21.0",
