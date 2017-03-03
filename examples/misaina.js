@@ -6,6 +6,8 @@ const bot = new Mbot({
     "appSecret": "32ee4c6e5a889406aa4096b6176d9aba",
     "subdomain" : "misaina"
 });
+const fetch = require('node-fetch');
+const GIPHY_URL = `http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=`;
 
 bot.on('message', (payload, chat) => {
     const text = payload.message.text;
