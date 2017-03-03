@@ -9,9 +9,51 @@ const bot = new Mbot({
 const fetch = require('node-fetch');
 const GIPHY_URL = `http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=`;
 
-bot.on('message', (payload, chat) => {
+
+bot.setGreetingText('Hey there! Welcome to MBot!');
+bot.setGetStartedButton((payload, chat) => {
+    chat.say('Welcome to MBot. What are you looking for?');
+});
+bot.setPersistentMenu([
+    {
+        type: 'postback',
+        title: 'Help',
+        payload: 'PERSISTENT_MENU_HELP'
+    },
+    {
+        type: 'postback',
+        title: 'Settings',
+        payload: 'PERSISTENT_MENU_SETTINGS'
+    },
+    {
+        type: 'web_url',
+        title: 'Go to Website',
+        url: 'http://yostik.io'
+    }
+]);
+
+bot.on('postback:PERSISTENT_MENU_HELP', (payload, chat) => {
+    chat.say(`I'm here to help!`);
+});
+
+bot.on('postback:PERSISTENT_MENU_SETTINGS', (payload, chat) => {
+    chat.say(`Here are your settings: ...`);
+});
+
+bot.hear('help', (payload, chat) => {
     const text = payload.message.text;
-    chat.say(`Echo: ${text}`);
+    const buttons = [
+        { type: 'postback', title: 'Settings', payload: 'HELP_SETTINGS' },
+        { type: 'postback', title: 'Notifications', payload: 'HELP_NOTIFICATIONS' }
+    ];
+    chat.sendButtonTemplate(`Need help? Try one of these options`, buttons);
+});
+
+
+bot.hear('hello', (payload, chat) => {
+    chat.getUserProfile().then((user) => {
+        chat.say(`Hello, ${user.first_name}!`);
+    });
 });
 
 
