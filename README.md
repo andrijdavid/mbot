@@ -4,7 +4,7 @@
 
 MBot is a simple but powerful JavaScript Framework to build Facebook Messenger's Chat bots.
 
-| [Features][] | [Usage][] | [Video Example][] | [Getting Started][] | [Documentation][] | [Examples][] | [Credits][] | [License][] |
+| [Features][] | [Usage][] | [Getting Started][] | [Documentation][] | [Examples][] | [Credits][] | [License][] |
 |---|---|---|---|---|---|---|---|
 
 ## Features
