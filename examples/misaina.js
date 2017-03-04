@@ -31,14 +31,20 @@ bot.on('postback:PERSISTENT_MENU_HELP', (payload, chat) => {
     chat.say(`Je suis là pour t'aider`);
 });
 
+bot.on('postback:GAME', (payload, chat) => {
+    jouer(chat);
+});
+
 bot.on('postback:PERSISTENT_MENU_SETTINGS', (payload, chat) => {
-    chat.say(`Tes paramètre : ...`);
+    chat.say(`Tes paramètres : ...`);
 });
 
 bot.hear('aide', (payload, chat) => {
     const text = payload.message.text;
     const buttons = [
+
         { type: 'postback', title: 'Paramètre', payload: 'HELP_SETTINGS' },
+        { type: 'postback', title: 'Jouer', payload: 'GAME' },
         { type: 'postback', title: 'Notifications', payload: 'HELP_NOTIFICATIONS' }
     ];
     chat.sendButtonTemplate(`Besoin d'aide. Choisi parmi ces boutons ;)`, buttons);
@@ -47,11 +53,15 @@ bot.hear('aide', (payload, chat) => {
 
 bot.hear('Salut', (payload, chat) => {
     chat.getUserProfile().then((user) => {
-        chat.say(`Salut, ${user.first_name}!`);
+        chat.say(`Salut, ${user.first_name}!. Veux-tu jouer aujourd'hui?`);
     });
 });
 
 bot.hear('quiz', function (payload, chat) {
+    jouer(chat);
+});
+
+function jouer(chat){
     chat.conversation((convo) => {
         askQuestion(convo);
     });
@@ -84,8 +94,7 @@ bot.hear('quiz', function (payload, chat) {
             }
         });
     }
-});
-
+}
 bot.hear(/gif (.*)/i, (payload, chat, data) => {
     const query = data.match[1];
     fetch(GIPHY_URL + query)
@@ -118,7 +127,7 @@ function loading_done (batch_num) {
     // And now we're free to get a reply from the brain!
     //let reply = ian.reply("local-user", "Hello, bot!");
 
-    bot.hear('*', function (payload, chat) {
+    bot.on('message', function (payload, chat) {
         let text = payload.message.text;
         chat.say(ian.reply("local-user", text));
     });
