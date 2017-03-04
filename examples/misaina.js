@@ -87,7 +87,7 @@ function jouer(chat){
 
     function nextQuestion(convo){
         convo.ask({text: `Où se trouve la mer de la tranquilité?`, quickReplies:
-            ['Entre les îles de la polynesie', 'Au golf du pôle sud', 'Sur la lune']
+            ['Entre les îles de la Polynesie', 'Au golf du pôle sud', 'Sur la lune']
         }, (payload, convo) => {
             const text = payload.message.text;
             convo.set('name', text);
