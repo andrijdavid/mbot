@@ -10,56 +10,84 @@ const fetch = require('node-fetch');
 const GIPHY_URL = `http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=`;
 
 
-bot.setGreetingText('Hey there! Welcome to MBot!');
+bot.setGreetingText('Hey salut! Je suis Misaina.');
 bot.setGetStartedButton((payload, chat) => {
-    chat.say('Welcome to MBot. What are you looking for?');
+    chat.say('Bienvenue a toi mon ami. Que puis-je faire pour toi?');
 });
 bot.setPersistentMenu([
     {
         type: 'postback',
-        title: 'Help',
+        title: 'Aide',
         payload: 'PERSISTENT_MENU_HELP'
     },
     {
         type: 'postback',
-        title: 'Settings',
+        title: 'Paramètre',
         payload: 'PERSISTENT_MENU_SETTINGS'
-    },
-    {
-        type: 'web_url',
-        title: 'Go to Website',
-        url: 'http://yostik.io'
     }
 ]);
 
 bot.on('postback:PERSISTENT_MENU_HELP', (payload, chat) => {
-    chat.say(`I'm here to help!`);
+    chat.say(`Je suis là pour t'aider`);
 });
 
 bot.on('postback:PERSISTENT_MENU_SETTINGS', (payload, chat) => {
-    chat.say(`Here are your settings: ...`);
+    chat.say(`Tes paramètre : ...`);
 });
 
-bot.hear('help', (payload, chat) => {
+bot.hear('aide', (payload, chat) => {
     const text = payload.message.text;
     const buttons = [
-        { type: 'postback', title: 'Settings', payload: 'HELP_SETTINGS' },
+        { type: 'postback', title: 'Paramètre', payload: 'HELP_SETTINGS' },
         { type: 'postback', title: 'Notifications', payload: 'HELP_NOTIFICATIONS' }
     ];
-    chat.sendButtonTemplate(`Need help? Try one of these options`, buttons);
+    chat.sendButtonTemplate(`Besoin d'aide. Choisi parmi ces boutons ;)`, buttons);
 });
 
 
-bot.hear('hello', (payload, chat) => {
+bot.hear('Salut', (payload, chat) => {
     chat.getUserProfile().then((user) => {
-        chat.say(`Hello, ${user.first_name}!`);
+        chat.say(`Salut, ${user.first_name}!`);
     });
 });
 
+bot.hear('quiz', function (payload, chat) {
+    chat.conversation((convo) => {
+        askQuestion(convo);
+    });
+    function askQuestion(convo){
+        convo.ask({text: `Qui est le président des USA ?`, quickReplies:
+            ['Barack Obama', 'Hery Rajaonarimampianina', 'Donald Trump']
+        }, (payload, convo) => {
+            const text = payload.message.text;
+            convo.set('name', text);
+            if(text === 'Donald Trump'){
+                convo.say('bravo (y) (y) :D');
+            }
+            else{
+                convo.say('Ohh!! Dommage! Ce n\'est pas la bonne réponse').then(() => nextQuestion(convo));
+            }
+        });
+    }
+
+    function nextQuestion(convo){
+        convo.ask({text: `Où se trouve la mer de la tranquilité?`, quickReplies:
+            ['Entre les îles de la polynesie', 'Au golf du pôle sud', 'Sur la lune']
+        }, (payload, convo) => {
+            const text = payload.message.text;
+            convo.set('name', text);
+            if(text === 'Sur la lune'){
+                convo.say('bravo (y) (y) :D');
+            }
+            else{
+                convo.say('Ohh!! Dommage! Ce n\'est pas la bonne réponse').then(() => nextQuestion(convo));
+            }
+        });
+    }
+});
 
 bot.hear(/gif (.*)/i, (payload, chat, data) => {
     const query = data.match[1];
-    chat.say('Searching for the perfect gif...');
     fetch(GIPHY_URL + query)
         .then(res => res.json())
         .then(json => {

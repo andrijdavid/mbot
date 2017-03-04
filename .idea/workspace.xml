@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/brain/citation.rive" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/brain/emoji.rive" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/brain/rappel.rive" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/brain/sticker.rive" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/brain/wikipedia.rive" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/examples/brain/youtube.rive" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/brain/insulte.rive" afterPath="$PROJECT_DIR$/examples/brain/insulte.rive" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/brain/nocomprendo.rive" afterPath="$PROJECT_DIR$/examples/brain/nocomprendo.rive" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/brain/profile.rive" afterPath="$PROJECT_DIR$/examples/brain/profile.rive" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/brain/toc-toc.rive" afterPath="$PROJECT_DIR$/examples/brain/toc-toc.rive" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/brain/aide.rive" afterPath="$PROJECT_DIR$/examples/brain/aide.rive" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/misaina.js" afterPath="$PROJECT_DIR$/examples/misaina.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -31,16 +22,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="nocomprendo.rive" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examples/brain/nocomprendo.rive">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="38" column="13" lean-forward="false" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="politesse.rive" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/brain/politesse.rive">
           <provider selected="true" editor-type-id="text-editor">
@@ -111,11 +92,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toc-toc.rive" pinned="false" current-in-tab="true">
+      <file leaf-file-name="toc-toc.rive" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/brain/toc-toc.rive">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
               <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="misaina.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/misaina.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="78" column="36" lean-forward="false" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aide.rive" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/brain/aide.rive">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="129" lean-forward="false" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
               <folding />
             </state>
           </provider>
@@ -180,13 +181,13 @@
         <option value="$PROJECT_DIR$/lib/Chat.js" />
         <option value="$PROJECT_DIR$/lib/MBot.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/examples/brain/aide.rive" />
-        <option value="$PROJECT_DIR$/examples/misaina.js" />
         <option value="$PROJECT_DIR$/examples/brain/emoji.rive" />
         <option value="$PROJECT_DIR$/examples/brain/insulte.rive" />
         <option value="$PROJECT_DIR$/examples/brain/nocomprendo.rive" />
         <option value="$PROJECT_DIR$/examples/brain/profile.rive" />
         <option value="$PROJECT_DIR$/examples/brain/toc-toc.rive" />
+        <option value="$PROJECT_DIR$/examples/brain/aide.rive" />
+        <option value="$PROJECT_DIR$/examples/misaina.js" />
       </list>
     </option>
   </component>
@@ -249,24 +250,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mbot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mbot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examples" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="brain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -364,7 +347,7 @@
       <updated>1488354297340</updated>
       <workItem from="1488354303728" duration="131000" />
       <workItem from="1488354543486" duration="18422000" />
-      <workItem from="1488522710883" duration="27222000" />
+      <workItem from="1488522710883" duration="28155000" />
     </task>
     <task id="LOCAL-00001" summary="scaff">
       <created>1488564395947</created>
@@ -548,11 +531,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488636965663</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="scaff">
+      <created>1488637178807</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1488637178807</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45775000" />
+    <option name="totallyTimeSpent" value="46708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -790,22 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/misaina.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="98" column="0" lean-forward="true" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/brain/aide.rive">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/brain/atomique.rive">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1002,6 +976,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/brain/aide.rive">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="129" lean-forward="false" selection-start-line="3" selection-start-column="129" selection-end-line="3" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/misaina.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="78" column="36" lean-forward="false" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="36" />
           <folding />
         </state>
       </provider>
