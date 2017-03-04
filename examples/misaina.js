@@ -127,7 +127,7 @@ function loading_done (batch_num) {
     // And now we're free to get a reply from the brain!
     //let reply = ian.reply("local-user", "Hello, bot!");
 
-    bot.on('message', function (payload, chat) {
+    bot.hear('*', function (payload, chat) {
         let text = payload.message.text;
         chat.say(ian.reply("local-user", text));
     });
