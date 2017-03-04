@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/brain/aide.rive" afterPath="$PROJECT_DIR$/examples/brain/aide.rive" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/misaina.js" afterPath="$PROJECT_DIR$/examples/misaina.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -347,7 +345,7 @@
       <updated>1488354297340</updated>
       <workItem from="1488354303728" duration="131000" />
       <workItem from="1488354543486" duration="18422000" />
-      <workItem from="1488522710883" duration="28155000" />
+      <workItem from="1488522710883" duration="28166000" />
     </task>
     <task id="LOCAL-00001" summary="scaff">
       <created>1488564395947</created>
@@ -538,11 +536,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488637178807</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="scaff">
+      <created>1488638319007</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1488638319007</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46708000" />
+    <option name="totallyTimeSpent" value="46719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
