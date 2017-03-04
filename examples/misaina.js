@@ -59,7 +59,7 @@ bot.hear('Salut', (payload, chat) => {
                 { type: 'postback', title: 'Non', payload: 'HELP_FAQ' },
             ]
         });
-        chat.say(['say', {text: 'say1'}])
+        chat.say(['say', {text: 'say1'}, 'say2'])
     });
 });
 
