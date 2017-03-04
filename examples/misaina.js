@@ -118,13 +118,13 @@ const wikipedia = require('wikipedia-js');
 const striptags = require('striptags');
 
 
-bot.hear(/wikipedia (.*)/i, (payload, chat, data) => {
+bot.hear([/wikipedia (.*)/i,/wiki (.*)/i], (payload, chat, data) => {
     const query = data.match[1];
     console.log('wikipedia', data);
     let options = {query: query, format: "html", summaryOnly: true, lang: "fr"};
     wikipedia.searchArticle(options, function (err, text) {
         if (err) {
-            reject(err);
+            console.error(err);
         }
         console.log('response', text);
         let message = striptags(text);
