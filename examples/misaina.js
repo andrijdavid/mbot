@@ -53,7 +53,12 @@ bot.hear('aide', (payload, chat) => {
 
 bot.hear('Salut', (payload, chat) => {
     chat.getUserProfile().then((user) => {
-        chat.say(`Salut, ${user.first_name}!. Veux-tu jouer aujourd'hui?`);
+        chat.say({text: `Salut, ${user.first_name}!. Veux-tu jouer aujourd'hui?`,
+            buttons: [
+                { type: 'postback', title: 'Oui', payload: 'GAME' },
+                { type: 'postback', title: 'Non', payload: 'HELP_FAQ' },
+            ]
+        });
     });
 });
 
