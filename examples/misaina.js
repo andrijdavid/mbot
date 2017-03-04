@@ -94,7 +94,7 @@ function loading_done (batch_num) {
         let text = payload.message.text;
         chat.say(ian.reply("local-user", text));
     });
-    console.log("The bot says: " + reply);
+    // console.log("The bot says: " + reply);
 }
 
 // It's good to catch errors too!
