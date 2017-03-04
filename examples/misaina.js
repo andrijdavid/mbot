@@ -145,5 +145,19 @@ function loading_error (error) {
 }
 
 
+///////////////////
+const wikipedia = require('wikipedia-js');
+const striptags = require('striptags');
 
+
+bot.hear(/wikipedia (.*)/i, (payload, chat, data) => {
+    const query = data.match[1];
+    let options = {query: query, format: "html", summaryOnly: true, lang: "fr"};
+    wikipedia.searchArticle(options, function (err, text) {
+        if (err) {
+            reject(err);
+        }
+        chat.say(striptags(text));
+    });
+});
 bot.start();
