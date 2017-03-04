@@ -1,0 +1,6 @@
+! version = 2.0
+
+! array bye = bye goodbye goodby byebye buhbye goodnight adios cya aurevoir
+	^ buh bye|hasta la vista|hasta luego|have to go|got to go|g2g|gtg|c ya
+	^ have a good night|good night|see you later|catch you later|by by|bye bye
+	^ a plus | a la prochaine | a demain 

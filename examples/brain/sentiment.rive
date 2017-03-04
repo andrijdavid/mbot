@@ -1,0 +1,12 @@
+! version = 2.0
+
+> begin
+
+  // Change the reply formatting based on the bot's mood
+  + request
+  * <bot sentiment> == joyeux => {sentence}{ok}{/sentence}
+  * <bot sentiment> == colere => {uppercase}{ok}{/uppercase}
+  * <bot sentiment> == triste   => {lowercase}{ok}{/lowercase}...
+  - {ok}
+
+< begin

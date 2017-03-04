@@ -1,0 +1,7 @@
+! version = 2.0
+
+/*
+ * Liste des bonjours (Salutation)
+ */
+
+! array bonjour = bonjour salut hey

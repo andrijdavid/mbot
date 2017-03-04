@@ -1,0 +1,29 @@
+! version = 2.0
+
++ <bot name>
+- Oui ?
+
++ <bot name> *
+- Oui ? {@<star>}
+
++ nom
+- Je suis <bot name>
+- Je m'appelle <bot name>
+- Tu peux m'appeller <bot name>
+- Mes amis m'appelle <bot name>
+
++ qui est-tu?
+- {@nom}
+
++ ton nom
+- {@ nom}
+
++ comment t'appelle tu?
+- {@nom}
+
++ age
+- J'ai <bot age>.
+- je n'ai que <bot age>. Je suis encore tous jeune.
+
++ quel age as tu?
+- {@age}

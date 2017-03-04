@@ -1,0 +1,10 @@
+!version = 2.0
+
++ youtube *
+- <call>youtube <start></call>
+
++ youtube id _
+- <call>youtubeDl <start></call>
+
++ youtube url *
+- <call>youtubeDl <start></call>

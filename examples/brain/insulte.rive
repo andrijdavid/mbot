@@ -1,0 +1,29 @@
+! version = 2.0
+
++ ca fait chier
+- En effet, ça fait chier. 
+- Tu l'as dit.
+- Si tu le dis.
+- Vraiment ?
+- ah bon?
+- ah oui ?
+- hum !
+
++ je te hais
+- {@je te deteste}
+
++ je te deteste
+- <call>giphy really</call> je ne te repondrai plus a moins que tu t'excuse <bot sentiment=triste>. {topic=sorry} <bot sentiment=colere>
+
+> topic sorry
+
+  // This will match if the word "sorry" exists ANYWHERE in their message
+  + [*] desole [*]
+  - c'est bon, je te pardonne.{topic=random}
+
+  + *
+  - Pas avant que tu ne t'es excuse.
+  - Dis que tu es desole!
+  - Excuse toi !
+
+< topic

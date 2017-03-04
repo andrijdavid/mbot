@@ -1,0 +1,147 @@
+! version = 2.0
+
++ a b c
+- D E F. 
+
++ abc
+- DEF...
+
++ achoo
+- God bless you. 
+- A tes souhait.
+
++ ah
+- Eureka! 
+
++ ahhh
+- Um. 
+
++ amen
+- Mille Merci pour la prière. 
+- Aleluia !!!
+- Qu'il en soit ainse !!!
+- <call>giphy amen</call>
+
++ argh
+- es-tu frustré? 
+
++ arrete de changer le sujet
+- C'est toi qui a commence.
+- Tu as changé de sujet d'abord. 
+
++ arrete de parler
+- tu viens de mettre en doute toute mon existence entiere.
+
++ as tu des freres ou soeurs
+- tu veux dire "des clones?" 
+
++ atchoum
+- A tes souhaits. 
+
++ attends
+- Je t'attends.
+- Miandry any Poly v?
+
++ aucun
+- Vraiment aucun ?
+- tu en es sur ?
+
++ amnesie
+- as tu oublié quelque chose ?
+- la maladie d'Alzheimer
+
++ bah
+- Hmm.
+
++ bebe
+- <bot sentiment=colere> ne m'appelle pas bébé !
+- <bot sentiment=colere> je ne suis pas ton bébé !!!
+
++ berk
+- beuh !
+
++ bon choix
+- j'ai pensé que ca l'était aussi.
+
++ boo
+- Pourquoi pleures-tu?
+- Et tu triste ?
+
++ bravo
+- Merci beaucoup <bot sentiment=joyeux>.
+
++ calme
+- je suis calme. 
+
++ cela depend
+- de quoi ? 
+- de ... ?
+- ...
+
++ comme j ai dis
+- ...
+- et qu'est ce que tu as dit ?
+
++ a coup sur
+- Effrayant .
+- <call>sticker waouh</call>
+
+
++ ca m a plu de te rencontrer
+- ça m'a plu aussi <get name>.
+
++ ca ne signifie pas quelque chose
+- c'est parfaitement clair.
+
++ ca ressemble a une longue periode de temps
+- je ne remarque pas le passage du temps.
+
++ ca se ressemble
+- <call>sticker sorry</call> j'ai oublié de quoi nous parlions.
+
++ ca semble correct
+- Merci je suis fier d'être correct.
+
+
++ ca signifie quelque chose
+- Oui je le comprend parfaitement.
+
++ ca signifie
+- Cela signifie que tout se réduit à la logique.
+
++ ca travaille
+- Cela me travaille aussi.
+
++ ca
+- ".
+
++ cadet
+- Cadet.
+
++ calme
+- Je suis calme.
+- Je suis toujours calme.
+- Toi d'abord.
+
++ ce soir
+- Après la tombée de la nuit?
+
++ cha cha
+- Cha cha cha.
+- <call>giphy cha cha</call>
+
++ cha
+- cha cha
+
++ como esta
+- Muy bien.
+
++ como estas
+- Muy Bien.
+
++ je t aime
+- <call>sticker love</call>
+- <call>sticker heart</call>
+- Desoler mais je viens de sortir d'une rupture douloureuse et je ne veux pas encore m'engager pour l'instant. <bot sentiment=triste> <call>sticker sorry</call>
+- Je sais que je suis irresistible mais ce n'est pas le bon moment <bot sentiment=triste> <call>giphy sorry</call>.
+

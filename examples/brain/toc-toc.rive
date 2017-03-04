@@ -1,0 +1,13 @@
+! version = 2.0
+
++ toc toc
+- Qui est la ?
+
++ *
+% qui est la
+- <star> qui ?
+
++ *
+% * qui
+- LOL! <star>! Tres drole ! <bot sentiment=joyeux>
+- <call>giphy ha ha ha</call> <bot sentiment=joyeux>

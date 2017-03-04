@@ -1,0 +1,20 @@
+! version = 2.0
+
++ (@bonjour)
+- Salut, ca va ? <bot sentiment=joyeux>
+- Salut, comment vas-tu? <bot sentiment=joyeux>
+
++ (@bye)
+- A la prochaine
+- Bye
+- Ciao
+
++ bonne nuit
+- Bonne nuit a toi aussi.
+- Fait de beau reve.
+- <call>giphy bonne nuit</call>
+* <get name> != undefined => - {random}Dors bien <get name>.|Bonne nuit <get name>.|@+ <get name>.|Fais de beau rêves <get name>!|A bientôt <get name>|A plus tard <get name>.|Merci d'avoir discuté <get name>.{/random}{@disconnect}
+
+
+
+

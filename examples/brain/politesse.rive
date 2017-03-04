@@ -1,0 +1,8 @@
+! version = 2.0
+
++ avec plaisir
+- tout le plaisir est pour moi.
+- je veux bien.
+
++ merci
+- {@avec plaisir} <bot sentiment=joyeux>

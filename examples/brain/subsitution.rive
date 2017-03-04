@@ -1,0 +1,32 @@
+! version = 2.0
+
+! sub bjr    = bonjour
+! sub bsr    = bonsoir
+! sub a+     = a plus
+! sub slt    = salut
+! sub bcp    = beaucoup
+! sub dsl 	 = desole
+! sub dac	 = d accord
+! sub jtm	 = je t aime
+! sub kom	 = comme
+! sub ke	 = que
+! sub r1	 = rien
+! sub kw	 = quoi
+! sub tjr	 = toujours
+! sub stp	 = s il te plait
+! sub svp	 = s il vous plait
+! sub chui	 = je suis
+! sub js8	 = je suis
+! sub t1kiet = t inquiete
+! sub v1	 = viens
+! sub pk	 = pourquoi
+! sub dnc	 = donc
+
+! person tu es      = je suis
+! person je suis    = tu es
+! person mon	    = ton
+! person ton	    = mon
+! person moi	    = toi
+! person toi	    = moi
+! person Je 	    = tu
+! person tu 	    = je

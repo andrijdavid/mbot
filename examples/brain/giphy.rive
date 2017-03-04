@@ -1,0 +1,13 @@
+! version = 2.0
+
++ les tendances gif
+- <call>giphy </call>
+
++ gif *
+- <call>giphy <star></call>
+
++ quels sont les tendance (sur giphy | gif) en ce moment
+- {@les tendance gif}
+
++ quels sont les tendance (sur giphy | gif)
+- {@les tendance gif}

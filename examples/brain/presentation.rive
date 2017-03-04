@@ -1,0 +1,75 @@
+> begin
+
+  // If we don't know their name, set the new_user topic and continue.
+  + request
+  * <get name> == undefined => {topic=new_user}{ok}
+  - {ok}
+
+< begin
+
+> topic new_user
+
+  + *
+  - {@salut}, {@nom}!  Comment t'appelles tu? {topic=asked_name}
+
+< topic
+
+> topic asked_name
+
+  + #
+  - Ton nom est un nombre ?
+
+  + *
+  - Je veux connaitre uniquement ton prenom.
+  - Et comment tes amis t'appelle?
+  - Et comment veux tu que je t'appelle?
+
+  + _
+  - <set name=<formal>>Ravi de faire ta connaissance, <get name>!{topic=random}
+  - <set name=<formal>>Enchante, <get name>!{topic=random}
+
+< topic
+
+> topic asked_age
+   + *
+   - C'est vraiment ton age ? Franchement, tu ne les fais pas.
+< topic
+
+> topic ask_favmovie
+
+< topic
+
+
+> topic ask_favbook
+
+< topic
+
+
+> topic ask_favmusic
+
+< topic
+
+
+> topic hobby
+
+< topic
+
+
+> topic ask_favband
+
+< topic
+
+
+> topic ask_favsingle
+
+< topic
+
+
+> topic ask_favcolor
+
+< topic
+
+
+> topic ask_favfood
+
+< topic

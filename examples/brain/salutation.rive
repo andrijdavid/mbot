@@ -1,0 +1,74 @@
+! version = 2.0
+
++ * au revoir
+- <@>, {@au revoir}
+
++ * bonjour en allemand
+- Hallo.
+
++ * bonjour en espagnol
+- Hola
+
++ * rebonjour *
+-  {@<star> re bonjour <star2>}
+
++ * rebonjour
+-  {@<star> re bonjour }
+
++ * resalut *
+-  {@<star> re bonjour <star2>}
+
++ * resalut
+-  {@<star> re bonjour}
+
++ (* cyao|* dois * y aller|* dois y aller|* sayonara|* shalom|a bientot|a demain|a plus|a plus tard|a toute|adieu|adieu *|adios|adios *|aplus|aplus *|atoute|atoute *|au revoir|au revoir *|bon au revoir|bon au revoir *|by|by by|bye|bye *|bye bye|cheers|cyao|cyao *|deconnecte moi|fin|hasta la vista|hasta la vista *|hasta luego|il faut que j y aille|il faut que je te quitte|j ai besoin d y aller|j y go|j y vais|je dois aller *|je dois etre parti *|je dois m en aller|je dois partir|je dois quitter|je dois quitter *|je dois y aller|je doit aller *|je doit etre parti *|je doit m en aller|je doit partir|je doit quitter|je doit quitter *|je doit y aller|je ferais mieux d y aller|je ne veux pas parler *|je pars|je pars *|je part|je quitte|je suis off *|je te parlerai plus tard|je te verrai plus tard|je veux te parler plus tard|l heure d y aller|o revoir|quitter|quitter *|sayonara|sayonara *|see you|see you *|shalom|shalom *|sortie|ta ta)
+- <set aurevoir=oui>{random}Au revoir <get name>.|Salut <get name>.|@+ <get name>.|Bye bye <get name>.|Fais attention à toi, bye-bye <get name>!|A bientôt <get name>|A plus tard <get name>.|Jusqu'à la prochaine fois <get name>.|Merci d'avoir discuté <get name>.{/random}{@disconnect}
+
++ bonjour *
+- {@bonjour}
+
++ (* quelqu un ici|allo|allo *|aloh|aloh *|aloha|aloha *|bonjou|bonjour|bonjour la|bonjour opale |buenos dias|ca veut dire bonjour|coucou|greetings *|halo|hello|hey la|hi|hi la *|hi opale |hiya|hoi|je dis bonjour|je suis ici|konnichi wa|konnichiwa|konnichiwa *|mooshi mooshi|ola|ola *|re bonjour|reply|retry|sallut|salut|y a quelqu un ici)
+- {@appgaiete}{random}Bonjour <get name>!|Salut <get name>!{/random}
+
++ bonne nuit *
+- {@bonne nuit}<@>
+
++ ca va bien et toi
+- {@ça va}{@comment vas tu}
+
++ comment vas tu aujourd hui
+- je fonctionne avec des paramètres normaux. \n
+
++ (comment ca va |comment te sens tu|comment va|comment va *|comment va tu|comment va tu *|comment vas tu|comment vas tu *|comment vas tu bien|comment vas tu ce soir|tal|tu vas bien|tu vas bien interrogation)
+- <set cava=ok>{random}je vais très bien. Merci <get name>.|je fonctionne avec des paramètres normaux.|Tout va extrêmement bien.|je vais bien merci.|Tout va sans à-coup.|je suis bien, merci.|ça va,|c'est cool,|ça va plutôt pas mal <get name>, merci,|Ca va bien, merci,{/random}
+
++ con nichon wa
+- {@bonjour}, mais je ne crois pas que ça s'écrive comme ça.
+
++ go * toi meme
+- Un simple "au revoir" suffirai. {@au revoir}
+
++ go away *
+- Un simple "au revoir" aurait suffit. {@au revoir}
+
++ go home
+- Un simple "au revoir" aurait suffit. {@au revoir}
+
++ hasta la vista baby
+- {@au revoir}.
+
++ rebonjour *
+-  {@re bonjour <star>}
+
++ rebonjour
+-  {@re bonjour}
+
++ resalut *
+-  {@re bonjour <star>}
+
++ resalut
+-  {@re bonjour}
+
++ salut *
+- {@bonjour}
+
