@@ -104,11 +104,9 @@
       <file leaf-file-name="misaina.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/misaina.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
-              <folding>
-                <element signature="n#!!block;n#nextQuestion#0;n#!!block;n#jouer#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="178">
+              <caret line="109" column="60" lean-forward="true" selection-start-line="109" selection-start-column="60" selection-end-line="109" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -348,7 +346,7 @@
       <updated>1488354297340</updated>
       <workItem from="1488354303728" duration="131000" />
       <workItem from="1488354543486" duration="18422000" />
-      <workItem from="1488522710883" duration="29023000" />
+      <workItem from="1488522710883" duration="29279000" />
     </task>
     <task id="LOCAL-00001" summary="scaff">
       <created>1488564395947</created>
@@ -567,11 +565,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488638876138</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="scaff">
+      <created>1488639213353</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1488639213353</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47576000" />
+    <option name="totallyTimeSpent" value="47832000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -1019,11 +1024,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/misaina.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="80" column="13" lean-forward="true" selection-start-line="80" selection-start-column="13" selection-end-line="80" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!block;n#nextQuestion#0;n#!!block;n#jouer#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="178">
+          <caret line="109" column="60" lean-forward="true" selection-start-line="109" selection-start-column="60" selection-end-line="109" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>

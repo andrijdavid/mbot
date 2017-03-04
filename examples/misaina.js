@@ -77,10 +77,31 @@ function jouer(chat){
             const text = payload.message.text;
             convo.set('name', text);
             if(text === 'Donald Trump'){
+
+                fetch(GIPHY_URL + 'bravo')
+                    .then(res => res.json())
+                    .then(json => {
+                        chat.say({
+                            attachment: 'image',
+                            url: json.data.image_url
+                        }, {
+                            typing: true
+                        });
+                    });
                 convo.say('bravo (y) (y) :D');
             }
             else{
-                convo.say('Ohh!! Dommage! Ce n\'est pas la bonne réponse').then(() => nextQuestion(convo));
+                fetch(GIPHY_URL + 'desolé')
+                    .then(res => res.json())
+                    .then(json => {
+                        chat.say({
+                            attachment: 'image',
+                            url: json.data.image_url
+                        }, {
+                            typing: true
+                        });
+                    });
+                convo.say('Ohh!! Dommage! Ce n\'est pas la bonne réponse. Prochaine question ...').then(() => nextQuestion(convo));
             }
         });
     }
