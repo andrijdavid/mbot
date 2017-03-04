@@ -59,6 +59,7 @@ bot.hear('Salut', (payload, chat) => {
                 { type: 'postback', title: 'Non', payload: 'HELP_FAQ' },
             ]
         });
+        chat.say(['say', {text: 'say1'}])
     });
 });
 
@@ -120,6 +121,7 @@ const striptags = require('striptags');
 
 bot.hear(/wikipedia (.*)/i, (payload, chat, data) => {
     const query = data.match[1];
+    console.log('wikipedia', data);
     let options = {query: query, format: "html", summaryOnly: true, lang: "fr"};
     wikipedia.searchArticle(options, function (err, text) {
         if (err) {
