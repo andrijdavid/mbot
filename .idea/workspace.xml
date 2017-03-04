@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/aide.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/atomique.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/citation.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/command.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/creer.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/data-aurevoir.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/data-bonjour.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/emoji.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/giphy.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/humour.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/insulte.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/introduction.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/meteo.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/myself.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/nocomprendo.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/politesse.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/presentation.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/profile.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/question.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/quiz.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/rappel.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/salutation.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/sentiment.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/sticker.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/subsitution.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/toc-toc.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/wikipedia.rive" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/examples/brain/youtube.rive" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/misaina.js" afterPath="$PROJECT_DIR$/examples/misaina.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,8 +24,8 @@
       <file leaf-file-name="misaina.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/misaina.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="98" column="11" lean-forward="false" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+            <state relative-caret-position="76">
+              <caret line="74" column="7" lean-forward="false" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -371,7 +342,7 @@
       <updated>1488354297340</updated>
       <workItem from="1488354303728" duration="131000" />
       <workItem from="1488354543486" duration="18422000" />
-      <workItem from="1488522710883" duration="26526000" />
+      <workItem from="1488522710883" duration="26611000" />
     </task>
     <task id="LOCAL-00001" summary="scaff">
       <created>1488564395947</created>
@@ -506,17 +477,24 @@
       <option name="project" value="LOCAL" />
       <updated>1488574930443</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="scaff">
+      <created>1488636481883</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1488636481883</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45079000" />
+    <option name="totallyTimeSpent" value="45164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17717718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17717718" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.503003" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -897,8 +875,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/misaina.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="98" column="11" lean-forward="false" selection-start-line="98" selection-start-column="11" selection-end-line="98" selection-end-column="11" />
+        <state relative-caret-position="76">
+          <caret line="74" column="7" lean-forward="false" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
           <folding />
         </state>
       </provider>

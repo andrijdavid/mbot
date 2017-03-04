@@ -72,7 +72,7 @@ bot.hear(/gif (.*)/i, (payload, chat, data) => {
         });
 });
 
-const rivescript = require('rivescript');
+const Rivescript = require('rivescript');
 const ian = new RiveScript({utf8: true});
 ian.loadDirectory("brain", loading_done, loading_error);
 
