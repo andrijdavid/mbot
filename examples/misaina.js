@@ -113,38 +113,6 @@ bot.hear(/gif (.*)/i, (payload, chat, data) => {
             });
         });
 });
-
-const RiveScript = require('rivescript');
-const ian = new RiveScript({utf8: true});
-const path = require('path');
-ian.loadDirectory(path.join(__dirname,"brain"), loading_done, loading_error);
-
-// All file loading operations are asynchronous, so you need handlers
-// to catch when they've finished. If you use loadDirectory (or loadFile
-// with multiple file names), the success function is called only when ALL
-// the files have finished loading.
-function loading_done (batch_num) {
-    console.log("Batch #" + batch_num + " has finished loading!");
-
-    // Now the replies must be sorted!
-    ian.sortReplies();
-
-    // And now we're free to get a reply from the brain!
-    //let reply = ian.reply("local-user", "Hello, bot!");
-
-    bot.hear('*', function (payload, chat) {
-        let text = payload.message.text;
-        chat.say(ian.reply("local-user", text));
-    });
-    // console.log("The bot says: " + reply);
-}
-
-// It's good to catch errors too!
-function loading_error (error) {
-    console.log("Error when loading files: " + error);
-}
-
-
 ///////////////////
 const wikipedia = require('wikipedia-js');
 const striptags = require('striptags');
