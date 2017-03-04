@@ -53,13 +53,12 @@ bot.hear('aide', (payload, chat) => {
 
 bot.hear('Salut', (payload, chat) => {
     chat.getUserProfile().then((user) => {
-        chat.say({text: `Salut, ${user.first_name}!. Veux-tu jouer aujourd'hui?`,
+        chat.say(['say', {text: `Salut, ${user.first_name}!. Veux-tu jouer aujourd'hui?`,
             buttons: [
                 { type: 'postback', title: 'Oui', payload: 'GAME' },
                 { type: 'postback', title: 'Non', payload: 'HELP_FAQ' },
             ]
-        });
-        chat.say(['say', {text: 'say1'}, 'say2'])
+        }, 'say2'])
     });
 });
 
@@ -127,7 +126,10 @@ bot.hear(/wikipedia (.*)/i, (payload, chat, data) => {
         if (err) {
             reject(err);
         }
-        chat.say(striptags(text));
+        console.log('response', text);
+        let message = striptags(text);
+        console.log('striped response', message);
+        chat.say(message);
     });
 });
 bot.start();
