@@ -45,6 +45,7 @@
     "node-fetch": "^1.5.3",
     "pluralize-fr": "^1.0.1",
     "rivescript": "^1.17.2",
+    "sentence-tokenizer": "0.0.7",
     "sentiment-french": "^1.0.2",
     "spell-it": "^0.2.0",
     "striptags": "^3.0.1",

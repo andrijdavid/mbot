@@ -122,7 +122,7 @@ bot.hear([/wikipedia (.*)/i,/wiki (.*)/i], (payload, chat, data) => {
     const query = data.match[1];
     console.log('wikipedia', data);
     let options = {query: query, format: "html", summaryOnly: true, lang: "fr"};
-    wikipedia.searchArticle(options, function (err, text) {
+    wikipedia.searchArticle(options, (err, text) => {
         if (err) {
             console.error(err);
         }
