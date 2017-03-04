@@ -72,7 +72,7 @@ bot.hear(/gif (.*)/i, (payload, chat, data) => {
         });
 });
 
-const Rivescript = require('rivescript');
+const RiveScript = require('rivescript');
 const ian = new RiveScript({utf8: true});
 ian.loadDirectory("brain", loading_done, loading_error);
 
@@ -87,7 +87,12 @@ function loading_done (batch_num) {
     ian.sortReplies();
 
     // And now we're free to get a reply from the brain!
-    let reply = ian.reply("local-user", "Hello, bot!");
+    //let reply = ian.reply("local-user", "Hello, bot!");
+
+    bot.hear('*', function (payload, chat) {
+        let text = payload.message.text;
+        chat.say(ian.reply("local-user", text));
+    });
     console.log("The bot says: " + reply);
 }
 
@@ -96,10 +101,6 @@ function loading_error (error) {
     console.log("Error when loading files: " + error);
 }
 
-bot.hear('*', function (payload, chat) {
-    let text = payload.message.text;
-    chat.say(ian.reply("local-user", text));
-});
 
 
 bot.start();
