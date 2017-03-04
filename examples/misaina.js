@@ -75,7 +75,7 @@ bot.hear(/gif (.*)/i, (payload, chat, data) => {
 const RiveScript = require('rivescript');
 const ian = new RiveScript({utf8: true});
 const path = require('path');
-ian.loadDirectory("../brain", loading_done, loading_error);
+ian.loadDirectory(path.join(__dirname,"brain"), loading_done, loading_error);
 
 // All file loading operations are asynchronous, so you need handlers
 // to catch when they've finished. If you use loadDirectory (or loadFile
