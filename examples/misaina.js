@@ -74,6 +74,7 @@ bot.hear(/gif (.*)/i, (payload, chat, data) => {
 
 const RiveScript = require('rivescript');
 const ian = new RiveScript({utf8: true});
+const path = require('path');
 ian.loadDirectory("../brain", loading_done, loading_error);
 
 // All file loading operations are asynchronous, so you need handlers
