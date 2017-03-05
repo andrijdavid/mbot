@@ -135,7 +135,7 @@ bot.hear([/wikipedia (.*)/i,/wiki (.*)/i], (payload, chat, data) => {
 });
 
 //////////////////
-const youtubeDl = require('youtube-dl');
+// const youtubeDl = require('youtube-dl');
 bot.hear(/youtubedl (.*)/i, (payload, chat, data) => {
     const query = data.match[1];
     console.log('youtubedl', data);
