@@ -11,7 +11,7 @@ const path = require('path');
 const RiveScript = require('rivescript');
 const ian = new RiveScript({utf8: true});
 
-ian.loadDirectory(path.join(__dirname, "brain"), ()=>{
+ian.loadDirectory(path.join(__dirname, "brain"), (batch_num )=>{
     console.log("Batch #" + batch_num + " has finished loading!");
 
     // Now the replies must be sorted!
