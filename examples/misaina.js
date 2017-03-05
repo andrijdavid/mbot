@@ -1,3 +1,4 @@
+const njstrace = require('njstrace').inject();
 const Mbot = require('../index');
 const bot = new Mbot({
     "name": "Misaina",
