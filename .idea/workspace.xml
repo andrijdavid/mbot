@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Button.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/button/AccountLinkButtonBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/button/AccountUnlinkButtonBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/button/BuyButtonBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/button/CallButtonBuider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/button/PostbackButonBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/button/ShareButtonBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/button/UrlButtonBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/message/AudioMessageBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/message/FileMessageBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/message/ImageMessageBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/message/TextMessageBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/message/VideoMessageBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/template/ButtonTemplateBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/template/GenericElementTemplateBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/template/GenericTemplateBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/template/ListElementTemplateBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/template/ListTemplateBuilder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/template/ReceiptTemplateBuilder.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Chat.js" afterPath="$PROJECT_DIR$/lib/Chat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/MBot.js" afterPath="$PROJECT_DIR$/lib/MBot.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Message.js" afterPath="$PROJECT_DIR$/lib/Message.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/utils/helpers.js" afterPath="$PROJECT_DIR$/lib/utils/helpers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js" afterPath="$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js" afterPath="$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/message/TextMessageBuilder.js" afterPath="$PROJECT_DIR$/lib/message/TextMessageBuilder.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -46,7 +23,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MBot.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MBot.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/MBot.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
@@ -62,8 +39,18 @@
       <file leaf-file-name="AttachmentMessageBuilder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AudioMessageBuilder.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/message/AudioMessageBuilder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -79,26 +66,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chat.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Chat.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Conversation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Conversation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ImageMessageBuilder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/message/ImageMessageBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +76,31 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Message.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Message.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-160">
+              <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="QuickRepliesMessageBuilder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-131">
-              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoMessageBuilder.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/message/VideoMessageBuilder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -129,21 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VideoMessageBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/message/VideoMessageBuilder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TextMessageBuilder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/message/TextMessageBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -232,14 +209,14 @@
         <option value="$PROJECT_DIR$/lib/button/AccountLinkingButtonBuilder.js" />
         <option value="$PROJECT_DIR$/lib/button/AccountUnlinkButtonBuilder.js" />
         <option value="$PROJECT_DIR$/lib/utils/helpers.js" />
-        <option value="$PROJECT_DIR$/lib/message/TextMessageBuilder.js" />
         <option value="$PROJECT_DIR$/lib/Message.js" />
         <option value="$PROJECT_DIR$/lib/message/VideoMessageBuilder.js" />
         <option value="$PROJECT_DIR$/lib/message/ImageMessageBuilder.js" />
         <option value="$PROJECT_DIR$/lib/message/FileMessageBuilder.js" />
         <option value="$PROJECT_DIR$/lib/message/AudioMessageBuilder.js" />
-        <option value="$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js" />
         <option value="$PROJECT_DIR$/lib/MBot.js" />
+        <option value="$PROJECT_DIR$/lib/message/TextMessageBuilder.js" />
+        <option value="$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js" />
         <option value="$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js" />
       </list>
     </option>
@@ -449,14 +426,7 @@
       <workItem from="1488354543486" duration="18422000" />
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
-      <workItem from="1488731940617" duration="10975000" />
-    </task>
-    <task id="LOCAL-00016" summary="scaff">
-      <created>1488574661255</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1488574661255</updated>
+      <workItem from="1488731940617" duration="11121000" />
     </task>
     <task id="LOCAL-00017" summary="scaff">
       <created>1488574743709</created>
@@ -794,11 +764,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488740659471</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="scaff">
+      <created>1488750723377</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1488750723377</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76674000" />
+    <option name="totallyTimeSpent" value="76820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -812,7 +789,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.496997" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.496997" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1143,10 +1120,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Conversation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/misaina.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="75" column="65" lean-forward="false" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/MBot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="129" column="4" lean-forward="false" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
+          <folding>
+            <element signature="e#17381#17785#0" expanded="false" />
+            <element signature="e#17836#19579#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Message.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1887">
+        <state relative-caret-position="-160">
           <caret line="111" column="1" lean-forward="true" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/message/TextMessageBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1175,70 +1203,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/message/VideoMessageBuilder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/message/TextMessageBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Conversation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Chat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="45" column="24" lean-forward="false" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/misaina.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="75" column="65" lean-forward="false" selection-start-line="75" selection-start-column="65" selection-end-line="75" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-131">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/MBot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="129" column="4" lean-forward="false" selection-start-line="129" selection-start-column="4" selection-end-line="129" selection-end-column="4" />
-          <folding>
-            <element signature="e#17381#17785#0" expanded="false" />
-            <element signature="e#17836#19579#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
