@@ -21,17 +21,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Conversation.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Conversation.js">
+      <file leaf-file-name="MBot.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/MBot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="148" column="35" lean-forward="true" selection-start-line="148" selection-start-column="35" selection-end-line="148" selection-end-column="35" />
+            <state relative-caret-position="1594">
+              <caret line="578" column="0" lean-forward="true" selection-start-line="578" selection-start-column="0" selection-end-line="578" selection-end-column="0" />
               <folding>
-                <element signature="n#!!block;n#ask#0;n#Conversation#0" expanded="false" />
-                <element signature="n#!!block;n#respond#0;n#Conversation#0" expanded="false" />
-                <element signature="n#!!block;n#isActive#0;n#Conversation#0" expanded="false" />
-                <element signature="n#!!block;n#isWaitingForAnswer#0;n#Conversation#0" expanded="false" />
-                <element signature="n#!!block;n#stopWaitingForAnswer#0;n#Conversation#0" expanded="false" />
+                <element signature="e#17381#17785#0" expanded="false" />
+                <element signature="e#17836#19579#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -70,8 +67,8 @@
       <file leaf-file-name="misaina.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/misaina.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+            <state relative-caret-position="251">
+              <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="153" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -80,8 +77,8 @@
       <file leaf-file-name="rive.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/rive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="268">
+              <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -110,8 +107,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/rivescript/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="124" column="42" lean-forward="true" selection-start-line="117" selection-start-column="4" selection-end-line="124" selection-end-column="42" />
+            <state relative-caret-position="296">
+              <caret line="212" column="18" lean-forward="true" selection-start-line="212" selection-start-column="18" selection-end-line="212" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -410,14 +407,7 @@
       <workItem from="1488354543486" duration="18422000" />
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
-      <workItem from="1488731940617" duration="12917000" />
-    </task>
-    <task id="LOCAL-00021" summary="scaff">
-      <created>1488636565335</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1488636565335</updated>
+      <workItem from="1488731940617" duration="13109000" />
     </task>
     <task id="LOCAL-00022" summary="scaff">
       <created>1488636639522</created>
@@ -755,11 +745,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488752617050</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="scaff">
+      <created>1488752659732</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1488752659758</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78616000" />
+    <option name="totallyTimeSpent" value="78808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1121,17 +1118,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/MBot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="578" column="0" lean-forward="true" selection-start-line="578" selection-start-column="0" selection-end-line="578" selection-end-column="0" />
-          <folding>
-            <element signature="e#17381#17785#0" expanded="false" />
-            <element signature="e#17836#19579#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1186,22 +1172,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/misaina.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/rivescript/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="124" column="42" lean-forward="true" selection-start-line="117" selection-start-column="4" selection-end-line="124" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/brain/aide.rive">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1218,10 +1188,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/rivescript/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="212" column="18" lean-forward="true" selection-start-line="212" selection-start-column="18" selection-end-line="212" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/MBot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1594">
+          <caret line="578" column="0" lean-forward="true" selection-start-line="578" selection-start-column="0" selection-end-line="578" selection-end-column="0" />
+          <folding>
+            <element signature="e#17381#17785#0" expanded="false" />
+            <element signature="e#17836#19579#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/misaina.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="153" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/rive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="268">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
           <folding />
         </state>
       </provider>
