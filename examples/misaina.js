@@ -133,10 +133,22 @@ bot.hear([/wikipedia (.*)/i,/wiki (.*)/i], (payload, chat, data) => {
 });
 
 //////////////////
-// const youtubeDl = require('youtube-dl');
-bot.hear(/youtubedl (.*)/i, (payload, chat, data) => {
+ const youtube = require('youtube-search');
+var opts = {
+    maxResults: 10,
+    key: 'AIzaSyDKpJcZxx4E5jIBOrJaYNx-aXyOHFkmbIE'
+};
+
+
+bot.hear(/youtube (.*)/i, (payload, chat, data) => {
     const query = data.match[1];
-    console.log('youtubedl', data);
+    console.log('youtube', data);
+    youtube(query, opts, function(err, result){
+        if(err)
+            console.error(err);
+        console.info('result', result);
+        chat.say(result);
+    })
 });
 
 bot.start();
