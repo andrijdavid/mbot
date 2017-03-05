@@ -21,5 +21,4 @@ ian.loadDirectory(path.join(__dirname, "brain"), (batch_num )=>{
     bot.on('message', (payload, chat) => {
         chat.say(ian.reply("local-user", payload.message.text));
     });
-    console.log("The bot says: " + reply);
 }, err => console.error(err));
