@@ -1,6 +1,6 @@
 const njstrace = require('njstrace').inject();
-const Mbot = require('../index');
-const bot = new Mbot({
+const MBot = require('../index');
+const bot = new MBot({
     "name": "Misaina",
     "accessToken": "EAAIzFryBI4YBAA7Az6bCovVPQuwGp0fpkvsWznWlhy58n8da5sK0KHCcdgD3UjmzX1ni6O4otR7F4etRJ4hZC7QH79nfKXZC3IxfZBFhvmDOq5zRYOsKaaJjyjP5VsrFPZBLQMYnOA1FEyQnVNu73XTRBKPZBHnbWPciV6kkKKwZDZD",
     "verifyToken": "zaertzvioUOHJBUUGLIUtoy321321e32r1t3e1t",
