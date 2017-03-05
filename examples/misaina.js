@@ -61,7 +61,7 @@ bot.hear('Salut', (payload, chat) => {
                 { type: 'postback', title: 'Non', payload: 'HELP_FAQ' },
             ]
         }, 'say2'])
-    });
+    }).catch(err => console.error(err));
 });
 
 bot.hear('quiz', function (payload, chat) {
