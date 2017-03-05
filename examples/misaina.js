@@ -52,6 +52,7 @@ bot.hear('aide', (payload, chat) => {
 
 
 bot.hear('Salut', (payload, chat) => {
+    console.info(payload);
     chat.getUserProfile().then((user) => {
         chat.say(['say', {text: `Salut, ${user.first_name}!. Veux-tu jouer aujourd'hui?`,
             buttons: [
@@ -132,4 +133,12 @@ bot.hear([/wikipedia (.*)/i,/wiki (.*)/i], (payload, chat, data) => {
         chat.say(message);
     });
 });
+
+//////////////////
+const youtubeDl = require('youtube-dl');
+bot.hear(/youtubedl (.*)/i, (payload, chat, data) => {
+    const query = data.match[1];
+    console.log('youtubedl', data);
+});
+
 bot.start();
