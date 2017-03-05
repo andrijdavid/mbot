@@ -1,1 +1,1 @@
-web: node examples/misaina.js
+web: node examples/rive.js
