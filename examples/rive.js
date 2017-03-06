@@ -21,7 +21,7 @@ ian.loadDirectory(path.join(__dirname, "brain"), (batch_num )=>{
     bot.on('message', (payload, chat) => {
         const msgBuilder = new MBot.TextMessageBuilder();
         msgBuilder.setText(ian.reply("local-user", payload.message.text));
-        chat.say(msgBuilder.build());
+        chat.say(ian.reply("local-user", payload.message.text));
     });
 
 }, err => console.error(err));
