@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/button/CallButtonBuilder.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/button/CallButtonBuider.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/rive.js" afterPath="$PROJECT_DIR$/examples/rive.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Button.js" afterPath="$PROJECT_DIR$/lib/Button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/button/AccountLinkButtonBuilder.js" afterPath="$PROJECT_DIR$/lib/button/AccountLinkButtonBuilder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/button/AccountUnlinkButtonBuilder.js" afterPath="$PROJECT_DIR$/lib/button/AccountUnlinkButtonBuilder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/button/BuyButtonBuilder.js" afterPath="$PROJECT_DIR$/lib/button/BuyButtonBuilder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/button/ShareButtonBuilder.js" afterPath="$PROJECT_DIR$/lib/button/ShareButtonBuilder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/button/UrlButtonBuilder.js" afterPath="$PROJECT_DIR$/lib/button/UrlButtonBuilder.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lib/button/PostbackButonBuilder.js" afterPath="$PROJECT_DIR$/lib/button/PostbackButtonBuilder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/MBot.js" afterPath="$PROJECT_DIR$/lib/MBot.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,21 +22,44 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AccountLinkButtonBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/button/AccountLinkButtonBuilder.js">
+      <file leaf-file-name="MBot.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/MBot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="42" />
+            <state relative-caret-position="384">
+              <caret line="403" column="43" lean-forward="false" selection-start-line="403" selection-start-column="43" selection-end-line="403" selection-end-column="43" />
+              <folding>
+                <element signature="e#18700#19104#0" expanded="false" />
+                <element signature="e#19155#20898#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rive.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/rive.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountUnlinkButtonBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/button/AccountUnlinkButtonBuilder.js">
+      <file leaf-file-name="QuickRepliesMessageBuilder.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VideoMessageBuilder.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/message/VideoMessageBuilder.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -55,26 +70,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1047">
               <caret line="64" column="65" lean-forward="false" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BuyButtonBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/button/BuyButtonBuilder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="130" column="19" lean-forward="true" selection-start-line="130" selection-start-column="19" selection-end-line="130" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallButtonBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/button/CallButtonBuilder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -120,7 +115,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Template.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Template.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Template.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -211,11 +206,9 @@
         <option value="$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js" />
         <option value="$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js" />
         <option value="$PROJECT_DIR$/lib/Conversation.js" />
-        <option value="$PROJECT_DIR$/lib/MBot.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/lib/Message.js" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/examples/rive.js" />
         <option value="$PROJECT_DIR$/lib/button/AccountLinkButtonBuilder.js" />
         <option value="$PROJECT_DIR$/lib/button/AccountUnlinkButtonBuilder.js" />
         <option value="$PROJECT_DIR$/lib/button/BuyButtonBuilder.js" />
@@ -225,6 +218,8 @@
         <option value="$PROJECT_DIR$/lib/button/ShareButtonBuilder.js" />
         <option value="$PROJECT_DIR$/lib/Button.js" />
         <option value="$PROJECT_DIR$/lib/button/UrlButtonBuilder.js" />
+        <option value="$PROJECT_DIR$/lib/MBot.js" />
+        <option value="$PROJECT_DIR$/examples/rive.js" />
       </list>
     </option>
   </component>
@@ -317,7 +312,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="message" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,14 +428,7 @@
       <workItem from="1488354543486" duration="18422000" />
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
-      <workItem from="1488731940617" duration="17182000" />
-    </task>
-    <task id="LOCAL-00023" summary="scaff">
-      <created>1488636697741</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1488636697741</updated>
+      <workItem from="1488731940617" duration="17978000" />
     </task>
     <task id="LOCAL-00024" summary="scaff">
       <created>1488636776290</created>
@@ -778,11 +766,18 @@
       <option name="project" value="LOCAL" />
       <updated>1488752852107</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="scaff">
+      <created>1488779582669</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1488779582669</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82881000" />
+    <option name="totallyTimeSpent" value="83677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -824,7 +819,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/MBot.js</url>
-          <line>190</line>
+          <line>213</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -839,7 +834,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/MBot.js</url>
-          <line>403</line>
+          <line>428</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -937,22 +932,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/message/VideoMessageBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Chat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -1012,17 +991,6 @@
         <state relative-caret-position="296">
           <caret line="212" column="18" lean-forward="true" selection-start-line="212" selection-start-column="18" selection-end-line="212" selection-end-column="18" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/MBot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1594">
-          <caret line="578" column="0" lean-forward="true" selection-start-line="578" selection-start-column="0" selection-end-line="578" selection-end-column="0" />
-          <folding>
-            <element signature="e#17381#17785#0" expanded="false" />
-            <element signature="e#17836#19579#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1178,14 +1146,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/rive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/button/AccountLinkButtonBuilder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -1262,6 +1222,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/message/VideoMessageBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/MBot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="403" column="43" lean-forward="false" selection-start-line="403" selection-start-column="43" selection-end-line="403" selection-end-column="43" />
+          <folding>
+            <element signature="e#18700#19104#0" expanded="false" />
+            <element signature="e#19155#20898#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/rive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding />
         </state>
       </provider>
