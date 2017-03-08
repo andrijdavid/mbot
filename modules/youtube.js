@@ -4,7 +4,7 @@ const opts = {
     maxResults: 10,
     key: 'AIzaSyDKpJcZxx4E5jIBOrJaYNx-aXyOHFkmbIE'
 };
-
+const VideoMessageBuilder = require('../lib/message/VideoMessageBuilder');
 module.exports = (bot) => {
     bot.hear(/youtube (.*)/i, (payload, chat, data) => {
         const query = data.match[1];
@@ -13,7 +13,7 @@ module.exports = (bot) => {
             if(err)
                 console.error(err);
             console.info('result', result);
-            let msg = new bot.VideoMessageBuilder();
+            let msg = new VideoMessageBuilder();
             msg.setUrl(result[0].link);
             chat.sendVideoMessage(msg.build());
         })
