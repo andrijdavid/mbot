@@ -1,6 +1,6 @@
 'use strict';
 const youtube = require('youtube-search');
-var opts = {
+const opts = {
     maxResults: 10,
     key: 'AIzaSyDKpJcZxx4E5jIBOrJaYNx-aXyOHFkmbIE'
 };
