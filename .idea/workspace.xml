@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="">
+    <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="scaff">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/privacy.pug" afterPath="$PROJECT_DIR$/views/privacy.pug" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/tos.pug" afterPath="$PROJECT_DIR$/views/tos.pug" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/misaina.js" afterPath="$PROJECT_DIR$/examples/misaina.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/giphy.js" afterPath="$PROJECT_DIR$/modules/giphy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/wikipedia.js" afterPath="$PROJECT_DIR$/modules/wikipedia.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/youtube.js" afterPath="$PROJECT_DIR$/modules/youtube.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +28,8 @@
       <file leaf-file-name="MBot.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/MBot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="530" column="21" lean-forward="true" selection-start-line="530" selection-start-column="21" selection-end-line="530" selection-end-column="21" />
+            <state relative-caret-position="93">
+              <caret line="593" column="27" lean-forward="false" selection-start-line="593" selection-start-column="27" selection-end-line="593" selection-end-column="27" />
               <folding>
                 <element signature="e#18882#19286#0" expanded="false" />
                 <element signature="e#19337#21080#0" expanded="false" />
@@ -37,21 +40,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="privacy.pug" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/privacy.pug">
+      <file leaf-file-name="wikipedia.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/wikipedia.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="7" selection-end-column="27" />
+              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tos.pug" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/tos.pug">
+      <file leaf-file-name="giphy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/giphy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="youtube.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/youtube.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -60,12 +73,9 @@
       <file leaf-file-name="rive.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/rive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
+            <state relative-caret-position="476">
               <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <marker date="1488787440899" expanded="true" signature="605:1046" ph="{...}" />
-                <marker date="1488787440899" expanded="true" signature="836:1041" ph="{...}" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,21 +100,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuickRepliesMessageBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js">
+      <file leaf-file-name="misaina.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/misaina.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="299">
+              <caret line="104" column="25" lean-forward="true" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
+              <folding>
+                <element signature="e#609#682#0" expanded="false" />
+                <element signature="e#707#922#0" expanded="false" />
+                <element signature="e#985#1029#0" expanded="false" />
+                <element signature="e#1076#1096#0" expanded="false" />
+                <element signature="e#1163#1204#0" expanded="false" />
+                <element signature="e#1244#1623#0" expanded="false" />
+                <element signature="e#1665#2068#0" expanded="false" />
+                <element signature="e#2114#2134#0" expanded="false" />
+                <element signature="n#!!block;n#jouer#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VideoMessageBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/message/VideoMessageBuilder.js">
+      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -115,16 +135,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Template.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/Template.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -177,9 +187,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/modules/giphy.js" />
-        <option value="$PROJECT_DIR$/lib/ResponsePreprocessor/UpperCaseResponsePreprocessor.js" />
-        <option value="$PROJECT_DIR$/lib/Sentiment.js" />
         <option value="$PROJECT_DIR$/LICENSE" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/.npmignore" />
@@ -193,7 +200,6 @@
         <option value="$PROJECT_DIR$/examples/brain/aide.rive" />
         <option value="$PROJECT_DIR$/lib/Chat.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/examples/misaina.js" />
         <option value="$PROJECT_DIR$/lib/Template.js" />
         <option value="$PROJECT_DIR$/lib/template/GenericTemplateBuilder.js" />
         <option value="$PROJECT_DIR$/lib/template/GenericElementTemplateBuilder.js" />
@@ -211,7 +217,6 @@
         <option value="$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js" />
         <option value="$PROJECT_DIR$/lib/Conversation.js" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/lib/button/AccountLinkButtonBuilder.js" />
         <option value="$PROJECT_DIR$/lib/button/AccountUnlinkButtonBuilder.js" />
         <option value="$PROJECT_DIR$/lib/button/BuyButtonBuilder.js" />
@@ -228,6 +233,11 @@
         <option value="$PROJECT_DIR$/lib/MBot.js" />
         <option value="$PROJECT_DIR$/views/privacy.pug" />
         <option value="$PROJECT_DIR$/views/tos.pug" />
+        <option value="$PROJECT_DIR$/modules/youtube.js" />
+        <option value="$PROJECT_DIR$/modules/wikipedia.js" />
+        <option value="$PROJECT_DIR$/modules/giphy.js" />
+        <option value="$PROJECT_DIR$/examples/misaina.js" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -289,6 +299,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mbot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mbot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mbot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mbot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -391,14 +429,7 @@
       <workItem from="1488354543486" duration="18422000" />
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
-      <workItem from="1488731940617" duration="24748000" />
-    </task>
-    <task id="LOCAL-00029" summary="scaff">
-      <created>1488638327941</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1488638327941</updated>
+      <workItem from="1488731940617" duration="25821000" />
     </task>
     <task id="LOCAL-00030" summary="scaff">
       <created>1488638751527</created>
@@ -736,15 +767,22 @@
       <option name="project" value="LOCAL" />
       <updated>1488959492126</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="scaff">
+      <created>1488959654287</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1488959654287</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90447000" />
+    <option name="totallyTimeSpent" value="91520000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18167938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -755,7 +793,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.496997" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.496997" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -781,11 +819,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/examples/misaina.js</url>
-          <line>122</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/MBot.js</url>
           <line>73</line>
           <option name="timeStamp" value="5" />
@@ -808,30 +841,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/template/ListTemplateBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/template/ListElementTemplateBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/utils/helpers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -894,26 +903,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="26" lean-forward="true" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/rivescript/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
           <caret line="212" column="18" lean-forward="true" selection-start-line="212" selection-start-column="18" selection-end-line="212" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/misaina.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="152" column="0" lean-forward="true" selection-start-line="152" selection-start-column="0" selection-end-line="153" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -1174,17 +1167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/rive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1488787440899" expanded="true" signature="605:1046" ph="{...}" />
-            <marker date="1488787440899" expanded="true" signature="836:1041" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/tos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1201,19 +1183,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/MBot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="530" column="21" lean-forward="true" selection-start-line="530" selection-start-column="21" selection-end-line="530" selection-end-column="21" />
-          <folding>
-            <element signature="e#18882#19286#0" expanded="false" />
-            <element signature="e#19337#21080#0" expanded="false" />
-            <element signature="e#21130#21195#0" expanded="false" />
-            <element signature="e#21241#21303#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/privacy.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1224,8 +1193,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/tos.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="17">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/MBot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="593" column="27" lean-forward="false" selection-start-line="593" selection-start-column="27" selection-end-line="593" selection-end-column="27" />
+          <folding>
+            <element signature="e#18882#19286#0" expanded="false" />
+            <element signature="e#19337#21080#0" expanded="false" />
+            <element signature="e#21130#21195#0" expanded="false" />
+            <element signature="e#21241#21303#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/youtube.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/giphy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/rive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/wikipedia.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/misaina.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="104" column="25" lean-forward="true" selection-start-line="104" selection-start-column="25" selection-end-line="104" selection-end-column="25" />
+          <folding>
+            <element signature="e#609#682#0" expanded="false" />
+            <element signature="e#707#922#0" expanded="false" />
+            <element signature="e#985#1029#0" expanded="false" />
+            <element signature="e#1076#1096#0" expanded="false" />
+            <element signature="e#1163#1204#0" expanded="false" />
+            <element signature="e#1244#1623#0" expanded="false" />
+            <element signature="e#1665#2068#0" expanded="false" />
+            <element signature="e#2114#2134#0" expanded="false" />
+            <element signature="n#!!block;n#jouer#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="29" lean-forward="true" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
           <folding />
         </state>
       </provider>

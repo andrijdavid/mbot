@@ -8,7 +8,6 @@ const bot = new MBot({
     "subdomain" : "misaina"
 });
 const fetch = require('node-fetch');
-const GIPHY_URL = `http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=`;
 
 
 bot.setGreetingText('Hey salut! Je suis Misaina.');
@@ -102,53 +101,14 @@ function jouer(chat){
         });
     }
 }
-bot.hear(/gif (.*)/i, (payload, chat, data) => {
-    const query = data.match[1];
-    fetch(GIPHY_URL + query)
-        .then(res => res.json())
-        .then(json => {
-            chat.say({
-                attachment: 'image',
-                url: json.data.image_url
-            }, {
-                typing: true
-            });
-        });
-});
-///////////////////
-const wikipedia = require('wikipedia-js');
-const striptags = require('striptags');
 
-
-bot.hear([/wikipedia (.*)/i,/wiki (.*)/i], (payload, chat, data) => {
-    const query = data.match[1];
-    let options = {query: query, format: "html", summaryOnly: true, lang: "fr"};
-    wikipedia.searchArticle(options, (err, text) => {
-        if (err) {
-            console.error(err);
-        }
-        let message = striptags(text);
-        chat.say(message);
-    });
+bot.hear('.', function(payload, chat, data){
+    if(!data.captured){
+        chat.say('I am a fallback callback');
+    }
 });
 
-//////////////////
- const youtube = require('youtube-search');
-var opts = {
-    maxResults: 10,
-    key: 'AIzaSyDKpJcZxx4E5jIBOrJaYNx-aXyOHFkmbIE'
-};
 
 
-bot.hear(/youtube (.*)/i, (payload, chat, data) => {
-    const query = data.match[1];
-    console.log('youtube', data);
-    youtube(query, opts, function(err, result){
-        if(err)
-            console.error(err);
-        console.info('result', result);
-        chat.say(result);
-    })
-});
 
 bot.start();
