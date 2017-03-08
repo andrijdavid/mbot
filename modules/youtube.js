@@ -13,7 +13,9 @@ module.exports = (bot) => {
             if(err)
                 console.error(err);
             console.info('result', result);
-            chat.say(result);
+            let msg = new bot.VideoMessageBuilder();
+            msg.setUrl(result[0].link);
+            chat.sendVideoMessage(msg.build());
         })
     });
 };
