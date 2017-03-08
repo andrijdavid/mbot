@@ -53,6 +53,7 @@
     "striptags": "^3.0.1",
     "wikipedia-js": "0.0.6",
     "winston": "^2.3.1",
+    "youtube-dl": "^1.11.1",
     "youtube-search": "^1.0.8"
   },
   "devDependencies": {
