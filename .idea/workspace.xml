@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Message.js" afterPath="$PROJECT_DIR$/lib/Message.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/MBot.js" afterPath="$PROJECT_DIR$/lib/MBot.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,16 +21,16 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MBot.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MBot.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/MBot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="124" column="52" lean-forward="true" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="52" />
+            <state relative-caret-position="230">
+              <caret line="222" column="25" lean-forward="true" selection-start-line="222" selection-start-column="25" selection-end-line="222" selection-end-column="25" />
               <folding>
-                <element signature="e#18856#19260#0" expanded="false" />
-                <element signature="e#19311#21054#0" expanded="false" />
-                <element signature="e#21104#21169#0" expanded="false" />
-                <element signature="e#21215#21277#0" expanded="false" />
+                <element signature="e#18935#19339#0" expanded="false" />
+                <element signature="e#19390#21133#0" expanded="false" />
+                <element signature="e#21183#21248#0" expanded="false" />
+                <element signature="e#21294#21356#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -68,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AudioMessageBuilder.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AudioMessageBuilder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/message/AudioMessageBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -121,8 +121,8 @@
       <file leaf-file-name="youtube.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/youtube.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+            <state relative-caret-position="272">
+              <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -223,11 +223,11 @@
         <option value="$PROJECT_DIR$/modules/wikipedia.js" />
         <option value="$PROJECT_DIR$/modules/giphy.js" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/lib/MBot.js" />
         <option value="$PROJECT_DIR$/examples/misaina.js" />
         <option value="$PROJECT_DIR$/lib/Chat.js" />
         <option value="$PROJECT_DIR$/modules/youtube.js" />
         <option value="$PROJECT_DIR$/lib/Message.js" />
+        <option value="$PROJECT_DIR$/lib/MBot.js" />
       </list>
     </option>
   </component>
@@ -437,21 +437,7 @@
       <workItem from="1488354543486" duration="18422000" />
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
-      <workItem from="1488731940617" duration="29724000" />
-    </task>
-    <task id="LOCAL-00038" summary="scaff">
-      <created>1488653831408</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1488653831408</updated>
-    </task>
-    <task id="LOCAL-00039" summary="scaff">
-      <created>1488654011940</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1488654011940</updated>
+      <workItem from="1488731940617" duration="30101000" />
     </task>
     <task id="LOCAL-00040" summary="scaff">
       <created>1488654694122</created>
@@ -782,11 +768,25 @@
       <option name="project" value="LOCAL" />
       <updated>1488999398026</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="scaff">
+      <created>1488999812896</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1488999812897</updated>
+    </task>
+    <task id="LOCAL-00088" summary="scaff">
+      <created>1489000024498</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1489000024498</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95423000" />
+    <option name="totallyTimeSpent" value="95800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
@@ -833,7 +833,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/MBot.js</url>
-          <line>428</line>
+          <line>430</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -1208,19 +1208,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/MBot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="124" column="52" lean-forward="true" selection-start-line="124" selection-start-column="4" selection-end-line="124" selection-end-column="52" />
-          <folding>
-            <element signature="e#18856#19260#0" expanded="false" />
-            <element signature="e#19311#21054#0" expanded="false" />
-            <element signature="e#21104#21169#0" expanded="false" />
-            <element signature="e#21215#21277#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Chat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1241,14 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/youtube.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding />
         </state>
       </provider>
@@ -1276,6 +1255,27 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/youtube.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/MBot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="222" column="25" lean-forward="true" selection-start-line="222" selection-start-column="25" selection-end-line="222" selection-end-column="25" />
+          <folding>
+            <element signature="e#18935#19339#0" expanded="false" />
+            <element signature="e#19390#21133#0" expanded="false" />
+            <element signature="e#21183#21248#0" expanded="false" />
+            <element signature="e#21294#21356#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
