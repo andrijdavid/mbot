@@ -118,7 +118,7 @@ ian.loadDirectory(path.join(__dirname, "brain"), (batch_num) => {
     ian.sortReplies();
 
     // And now we're free to get a reply from the brain!
-    bot.on('message', (payload, chat) => {
+    bot.on('message', (payload, chat, data) => {
         if (!data.captured) {
             const msgBuilder = new MBot.TextMessageBuilder();
             msgBuilder.setText(ian.reply("local-user", payload.message.text));
