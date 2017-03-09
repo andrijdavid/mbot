@@ -17,34 +17,6 @@ module.exports = (bot) => {
             if (err)
                 console.error(err);
             console.info('result', result);
-            const video = youtubeDl(result[0].link,
-                // Optional arguments passed to youtube-dl.
-                ['--format=18'],
-                // Additional options can be given for calling `child_process.execFile()`.
-                {cwd: path.join(__dirname, '../public')}
-                );
-
-            // Will be called when the download starts.
-            video.on('info', function (info) {
-                console.log('Download started');
-                console.log('filename: ' + info.filename);
-                console.log('size: ' + info.size);
-            });
-
-            video.on('error', function (err) {
-                console.error(err);
-            });
-// Will be called if download was already completed and there is nothing more to download.
-            video.on('complete', function complete(info) {
-                'use strict';
-                console.log('filename: ' + info._filename + ' already downloaded.');
-            });
-
-            video.on('end', function() {
-                console.log('finished downloading!');
-            });
-            video.pipe(fs.createWriteStream('myvideo.mp4'));
-
             let msg = new VideoMessageBuilder();
             msg.setUrl('https://misaina.heruokuapp.com/myvideo.mp4');
             chat.sendVideoMessage(msg.build());

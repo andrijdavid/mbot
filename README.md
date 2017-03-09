@@ -342,6 +342,11 @@ chat.say({
 	attachment: 'video',
 	url: 'http://example.com/video.mp4'
 });
+
+// or
+chat.sendVideoMessage(url);
+chat.sendAudioMessage(url);
+chat.sendImageMessage(url);
 ```
 
 The `options` param can contain:
