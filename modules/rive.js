@@ -14,7 +14,7 @@ module.exports = (bot) => {
         // And now we're free to get a reply from the brain!
         bot.on('message', (payload, chat, data) => {
             if (!data.captured) {
-                const msgBuilder = new MBot.TextMessageBuilder();
+                const msgBuilder = bot.TextMessageBuilder();
                 msgBuilder.setText(ian.reply("local-user", payload.message.text));
                 chat.say(ian.reply("local-user", payload.message.text));
             }
