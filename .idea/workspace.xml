@@ -27,13 +27,13 @@
       <file leaf-file-name="MBot.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/MBot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-308">
-              <caret line="243" column="42" lean-forward="true" selection-start-line="243" selection-start-column="42" selection-end-line="243" selection-end-column="42" />
+            <state relative-caret-position="185">
+              <caret line="247" column="102" lean-forward="false" selection-start-line="247" selection-start-column="102" selection-end-line="247" selection-end-column="102" />
               <folding>
-                <element signature="e#19220#19624#0" expanded="false" />
-                <element signature="e#19675#21418#0" expanded="false" />
-                <element signature="e#21468#21533#0" expanded="false" />
-                <element signature="e#21579#21640#0" expanded="false" />
+                <element signature="e#19281#19685#0" expanded="false" />
+                <element signature="e#19736#21479#0" expanded="false" />
+                <element signature="e#21529#21594#0" expanded="false" />
+                <element signature="e#21640#21701#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -163,6 +163,7 @@
       <find>+ au revoir</find>
       <find>function</find>
       <find>Misaina</find>
+      <find>for</find>
     </findStrings>
     <replaceStrings>
       <replace>MBot</replace>
@@ -508,14 +509,7 @@
       <workItem from="1488354543486" duration="18422000" />
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
-      <workItem from="1488731940617" duration="46012000" />
-    </task>
-    <task id="LOCAL-00064" summary="scaff">
-      <created>1488740659471</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1488740659471</updated>
+      <workItem from="1488731940617" duration="46270000" />
     </task>
     <task id="LOCAL-00065" summary="scaff">
       <created>1488750723377</created>
@@ -853,11 +847,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489164751392</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL-00113" summary="scaff">
+      <created>1489165593605</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1489165593605</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111711000" />
+    <option name="totallyTimeSpent" value="111969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="4" width="1370" height="744" extended-state="0" />
@@ -904,7 +905,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/MBot.js</url>
-          <line>431</line>
+          <line>433</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -1290,14 +1291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/message/TextMessageBuilder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1332,15 +1325,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/MBot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-308">
-          <caret line="243" column="42" lean-forward="true" selection-start-line="243" selection-start-column="42" selection-end-line="243" selection-end-column="42" />
+        <state relative-caret-position="185">
+          <caret line="247" column="102" lean-forward="false" selection-start-line="247" selection-start-column="102" selection-end-line="247" selection-end-column="102" />
           <folding>
-            <element signature="e#19220#19624#0" expanded="false" />
-            <element signature="e#19675#21418#0" expanded="false" />
-            <element signature="e#21468#21533#0" expanded="false" />
-            <element signature="e#21579#21640#0" expanded="false" />
+            <element signature="e#19281#19685#0" expanded="false" />
+            <element signature="e#19736#21479#0" expanded="false" />
+            <element signature="e#21529#21594#0" expanded="false" />
+            <element signature="e#21640#21701#0" expanded="false" />
           </folding>
         </state>
       </provider>
