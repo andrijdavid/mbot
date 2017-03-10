@@ -8,7 +8,7 @@ const bot = new MBot({
     "subdomain": "Test"
 });
 const fetch = require('node-fetch');
-
+const path = require('path');
 
 bot.setGreetingText('Hey salut! Je suis Test.');
 bot.setGetStartedButton((payload, chat) => {
