@@ -3,23 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rive.js" afterPath="$PROJECT_DIR$/modules/rive.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/aide.rive" afterPath="$PROJECT_DIR$/brain/aide.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/atomique.rive" afterPath="$PROJECT_DIR$/brain/atomique.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/command.rive" afterPath="$PROJECT_DIR$/brain/command.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/creer.rive" afterPath="$PROJECT_DIR$/brain/creer.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/data-aurevoir.rive" afterPath="$PROJECT_DIR$/brain/data-aurevoir.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/data-bonjour.rive" afterPath="$PROJECT_DIR$/brain/data-bonjour.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/insulte.rive" afterPath="$PROJECT_DIR$/brain/insulte.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/introduction.rive" afterPath="$PROJECT_DIR$/brain/introduction.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/myself.rive" afterPath="$PROJECT_DIR$/brain/myself.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/nocomprendo.rive" afterPath="$PROJECT_DIR$/brain/nocomprendo.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/politesse.rive" afterPath="$PROJECT_DIR$/brain/politesse.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/profile.rive" afterPath="$PROJECT_DIR$/brain/profile.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/question.rive" afterPath="$PROJECT_DIR$/brain/question.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/salutation.rive" afterPath="$PROJECT_DIR$/brain/salutation.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/sentiment.rive" afterPath="$PROJECT_DIR$/brain/sentiment.rive" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/subsitution.rive" afterPath="$PROJECT_DIR$/brain/subsitution.rive" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/echo.js" afterPath="$PROJECT_DIR$/modules/echo.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,8 +24,8 @@
       <file leaf-file-name="MBot.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/MBot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="93" column="57" lean-forward="false" selection-start-line="93" selection-start-column="57" selection-end-line="93" selection-end-column="57" />
+            <state relative-caret-position="111">
+              <caret line="376" column="22" lean-forward="true" selection-start-line="376" selection-start-column="22" selection-end-line="376" selection-end-column="22" />
               <folding>
                 <element signature="e#18942#19346#0" expanded="false" />
                 <element signature="e#19397#21140#0" expanded="false" />
@@ -52,7 +36,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rive.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="echo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/echo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rive.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/rive.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
@@ -67,8 +61,18 @@
       <file leaf-file-name="misaina.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/misaina.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chat.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Chat.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -79,6 +83,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1649">
               <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Conversation.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Conversation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -104,41 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BuyButtonBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/button/BuyButtonBuilder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CallButtonBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/button/CallButtonBuilder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="15" column="4" lean-forward="false" selection-start-line="13" selection-start-column="2" selection-end-line="15" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostbackButtonBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/button/PostbackButtonBuilder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -196,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/examples/brain/toc-toc.rive" />
         <option value="$PROJECT_DIR$/examples/brain/aide.rive" />
         <option value="$PROJECT_DIR$/lib/Template.js" />
         <option value="$PROJECT_DIR$/lib/template/GenericTemplateBuilder.js" />
@@ -247,6 +230,7 @@
         <option value="$PROJECT_DIR$/examples/misaina.js" />
         <option value="$PROJECT_DIR$/lib/MBot.js" />
         <option value="$PROJECT_DIR$/modules/rive.js" />
+        <option value="$PROJECT_DIR$/modules/echo.js" />
       </list>
     </option>
   </component>
@@ -489,14 +473,7 @@
       <workItem from="1488354543486" duration="18422000" />
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
-      <workItem from="1488731940617" duration="41749000" />
-    </task>
-    <task id="LOCAL-00054" summary="scaff">
-      <created>1488728746788</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1488728746788</updated>
+      <workItem from="1488731940617" duration="42909000" />
     </task>
     <task id="LOCAL-00055" summary="scaff">
       <created>1488729511986</created>
@@ -834,11 +811,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489160774174</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="scaff">
+      <created>1489160868994</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1489160868995</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107448000" />
+    <option name="totallyTimeSpent" value="108608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="4" width="1370" height="744" extended-state="0" />
@@ -901,22 +885,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/brain/profile.rive">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/brain/question.rive">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2100">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/examples/brain/quiz.rive">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1003,14 +971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/echo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1295,18 +1255,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modules/rive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="e#808#853#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/examples/misaina.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state relative-caret-position="136">
+          <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Conversation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="42" column="26" lean-forward="false" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/MBot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="93" column="57" lean-forward="false" selection-start-line="93" selection-start-column="57" selection-end-line="93" selection-end-column="57" />
+        <state relative-caret-position="111">
+          <caret line="376" column="22" lean-forward="true" selection-start-line="376" selection-start-column="22" selection-end-line="376" selection-end-column="22" />
           <folding>
             <element signature="e#18942#19346#0" expanded="false" />
             <element signature="e#19397#21140#0" expanded="false" />
@@ -1316,13 +1302,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/rive.js">
+    <entry file="file://$PROJECT_DIR$/modules/echo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
-          <folding>
-            <element signature="e#808#853#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
