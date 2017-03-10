@@ -27,13 +27,13 @@
       <file leaf-file-name="MBot.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/MBot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="242" column="25" lean-forward="false" selection-start-line="242" selection-start-column="25" selection-end-line="242" selection-end-column="25" />
+            <state relative-caret-position="118">
+              <caret line="373" column="25" lean-forward="true" selection-start-line="373" selection-start-column="25" selection-end-line="373" selection-end-column="25" />
               <folding>
-                <element signature="e#19268#19672#0" expanded="false" />
-                <element signature="e#19723#21466#0" expanded="false" />
-                <element signature="e#21516#21581#0" expanded="false" />
-                <element signature="e#21627#21688#0" expanded="false" />
+                <element signature="e#19602#20006#0" expanded="false" />
+                <element signature="e#20057#21800#0" expanded="false" />
+                <element signature="e#21850#21915#0" expanded="false" />
+                <element signature="e#21961#22022#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -509,21 +509,7 @@
       <workItem from="1488354543486" duration="18422000" />
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
-      <workItem from="1488731940617" duration="46333000" />
-    </task>
-    <task id="LOCAL-00066" summary="scaff">
-      <created>1488750861781</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1488750861781</updated>
-    </task>
-    <task id="LOCAL-00067" summary="scaff">
-      <created>1488752059211</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1488752059211</updated>
+      <workItem from="1488731940617" duration="46929000" />
     </task>
     <task id="LOCAL-00068" summary="scaff">
       <created>1488752523550</created>
@@ -854,11 +840,25 @@
       <option name="project" value="LOCAL" />
       <updated>1489165850081</updated>
     </task>
-    <option name="localTasksCounter" value="115" />
+    <task id="LOCAL-00115" summary="scaff">
+      <created>1489165913532</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1489165913532</updated>
+    </task>
+    <task id="LOCAL-00116" summary="scaff">
+      <created>1489166126098</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1489166126098</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112032000" />
+    <option name="totallyTimeSpent" value="112628000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="4" width="1370" height="744" extended-state="0" />
@@ -905,7 +905,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/MBot.js</url>
-          <line>433</line>
+          <line>438</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -1335,13 +1335,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/MBot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="242" column="25" lean-forward="false" selection-start-line="242" selection-start-column="25" selection-end-line="242" selection-end-column="25" />
+        <state relative-caret-position="118">
+          <caret line="373" column="25" lean-forward="true" selection-start-line="373" selection-start-column="25" selection-end-line="373" selection-end-column="25" />
           <folding>
-            <element signature="e#19268#19672#0" expanded="false" />
-            <element signature="e#19723#21466#0" expanded="false" />
-            <element signature="e#21516#21581#0" expanded="false" />
-            <element signature="e#21627#21688#0" expanded="false" />
+            <element signature="e#19602#20006#0" expanded="false" />
+            <element signature="e#20057#21800#0" expanded="false" />
+            <element signature="e#21850#21915#0" expanded="false" />
+            <element signature="e#21961#22022#0" expanded="false" />
           </folding>
         </state>
       </provider>
