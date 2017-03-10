@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Base.js" afterPath="$PROJECT_DIR$/lib/Base.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/MBot.js" afterPath="$PROJECT_DIR$/lib/MBot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rive.js" afterPath="$PROJECT_DIR$/modules/rive.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -74,9 +73,9 @@
         <entry file="file://$PROJECT_DIR$/modules/rive.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <caret line="16" column="63" lean-forward="false" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
               <folding>
-                <element signature="e#803#848#0" expanded="false" />
+                <element signature="e#871#916#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -509,14 +508,7 @@
       <workItem from="1488354543486" duration="18422000" />
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
-      <workItem from="1488731940617" duration="44402000" />
-    </task>
-    <task id="LOCAL-00059" summary="scaff">
-      <created>1488730175964</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1488730175965</updated>
+      <workItem from="1488731940617" duration="44531000" />
     </task>
     <task id="LOCAL-00060" summary="scaff">
       <created>1488734589128</created>
@@ -854,11 +846,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489163433626</updated>
     </task>
-    <option name="localTasksCounter" value="108" />
+    <task id="LOCAL-00108" summary="scaff">
+      <created>1489163881703</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1489163881716</updated>
+    </task>
+    <option name="localTasksCounter" value="109" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110101000" />
+    <option name="totallyTimeSpent" value="110230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="4" width="1370" height="744" extended-state="0" />
@@ -1339,9 +1338,9 @@
     <entry file="file://$PROJECT_DIR$/modules/rive.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <caret line="16" column="63" lean-forward="false" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
           <folding>
-            <element signature="e#803#848#0" expanded="false" />
+            <element signature="e#871#916#0" expanded="false" />
           </folding>
         </state>
       </provider>
