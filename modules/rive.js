@@ -5,7 +5,7 @@ const path = require('path');
 
 module.exports = (bot) => {
 
-    ian.loadDirectory(path.join(__dirname, "brain"), (batch_num) => {
+    ian.loadDirectory(path.join(__dirname, "../brain"), (batch_num) => {
         console.log("Batch #" + batch_num + " has finished loading!");
 
         // Now the replies must be sorted!

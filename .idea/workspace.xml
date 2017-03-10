@@ -3,7 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/MBot.js" afterPath="$PROJECT_DIR$/lib/MBot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/rive.js" afterPath="$PROJECT_DIR$/modules/rive.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/aide.rive" afterPath="$PROJECT_DIR$/brain/aide.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/atomique.rive" afterPath="$PROJECT_DIR$/brain/atomique.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/command.rive" afterPath="$PROJECT_DIR$/brain/command.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/creer.rive" afterPath="$PROJECT_DIR$/brain/creer.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/data-aurevoir.rive" afterPath="$PROJECT_DIR$/brain/data-aurevoir.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/data-bonjour.rive" afterPath="$PROJECT_DIR$/brain/data-bonjour.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/insulte.rive" afterPath="$PROJECT_DIR$/brain/insulte.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/introduction.rive" afterPath="$PROJECT_DIR$/brain/introduction.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/myself.rive" afterPath="$PROJECT_DIR$/brain/myself.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/nocomprendo.rive" afterPath="$PROJECT_DIR$/brain/nocomprendo.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/politesse.rive" afterPath="$PROJECT_DIR$/brain/politesse.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/profile.rive" afterPath="$PROJECT_DIR$/brain/profile.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/question.rive" afterPath="$PROJECT_DIR$/brain/question.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/salutation.rive" afterPath="$PROJECT_DIR$/brain/salutation.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/sentiment.rive" afterPath="$PROJECT_DIR$/brain/sentiment.rive" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/examples/brain/subsitution.rive" afterPath="$PROJECT_DIR$/brain/subsitution.rive" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,7 +37,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MBot.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MBot.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/MBot.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="128">
@@ -31,6 +47,18 @@
                 <element signature="e#19397#21140#0" expanded="false" />
                 <element signature="e#21190#21255#0" expanded="false" />
                 <element signature="e#21301#21363#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rive.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/modules/rive.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+              <folding>
+                <element signature="e#808#853#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -71,16 +99,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
               <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountUnlinkButtonBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/button/AccountUnlinkButtonBuilder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -216,7 +234,6 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/lib/Message.js" />
         <option value="$PROJECT_DIR$/modules/post.js" />
-        <option value="$PROJECT_DIR$/modules/rive.js" />
         <option value="$PROJECT_DIR$/examples/brain/creer.rive" />
         <option value="$PROJECT_DIR$/examples/brain/meteo.rive" />
         <option value="$PROJECT_DIR$/modules/youtube.js" />
@@ -229,6 +246,7 @@
         <option value="$PROJECT_DIR$/lib/template/ButtonTemplateBuilder.js" />
         <option value="$PROJECT_DIR$/examples/misaina.js" />
         <option value="$PROJECT_DIR$/lib/MBot.js" />
+        <option value="$PROJECT_DIR$/modules/rive.js" />
       </list>
     </option>
   </component>
@@ -349,7 +367,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -388,6 +406,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\project\mbot" />
       <recent name="F:\project\mbot\assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -470,14 +489,7 @@
       <workItem from="1488354543486" duration="18422000" />
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
-      <workItem from="1488731940617" duration="41657000" />
-    </task>
-    <task id="LOCAL-00053" summary="scaff">
-      <created>1488728704453</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1488728704453</updated>
+      <workItem from="1488731940617" duration="41749000" />
     </task>
     <task id="LOCAL-00054" summary="scaff">
       <created>1488728746788</created>
@@ -815,11 +827,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489160362548</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="scaff">
+      <created>1489160774174</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1489160774174</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107356000" />
+    <option name="totallyTimeSpent" value="107448000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="4" width="1370" height="744" extended-state="0" />
@@ -882,7 +901,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/examples/brain/profile.rive">
+    <entry file="file://$PROJECT_DIR$/brain/profile.rive">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -890,7 +909,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/brain/question.rive">
+    <entry file="file://$PROJECT_DIR$/brain/question.rive">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2100">
           <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
@@ -906,7 +925,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/brain/salutation.rive">
+    <entry file="file://$PROJECT_DIR$/brain/salutation.rive">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-601">
           <caret line="23" column="185" lean-forward="false" selection-start-line="23" selection-start-column="176" selection-end-line="23" selection-end-column="185" />
@@ -914,7 +933,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/brain/sentiment.rive">
+    <entry file="file://$PROJECT_DIR$/brain/sentiment.rive">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
@@ -922,7 +941,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/brain/subsitution.rive">
+    <entry file="file://$PROJECT_DIR$/brain/subsitution.rive">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -944,16 +963,6 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#190#235#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/rive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#805#850#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1303,6 +1312,16 @@
             <element signature="e#19397#21140#0" expanded="false" />
             <element signature="e#21190#21255#0" expanded="false" />
             <element signature="e#21301#21363#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/rive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" lean-forward="false" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="e#808#853#0" expanded="false" />
           </folding>
         </state>
       </provider>
