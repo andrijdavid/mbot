@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/echo.js" afterPath="$PROJECT_DIR$/modules/echo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examples/misaina.js" afterPath="$PROJECT_DIR$/examples/misaina.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/MBot.js" afterPath="$PROJECT_DIR$/lib/MBot.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,19 +25,19 @@
       <file leaf-file-name="MBot.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/MBot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="376" column="22" lean-forward="true" selection-start-line="376" selection-start-column="22" selection-end-line="376" selection-end-column="22" />
+            <state relative-caret-position="128">
+              <caret line="377" column="76" lean-forward="false" selection-start-line="377" selection-start-column="76" selection-end-line="377" selection-end-column="76" />
               <folding>
-                <element signature="e#18942#19346#0" expanded="false" />
-                <element signature="e#19397#21140#0" expanded="false" />
-                <element signature="e#21190#21255#0" expanded="false" />
-                <element signature="e#21301#21363#0" expanded="false" />
+                <element signature="e#18944#19348#0" expanded="false" />
+                <element signature="e#19399#21142#0" expanded="false" />
+                <element signature="e#21192#21257#0" expanded="false" />
+                <element signature="e#21303#21365#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="echo.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="echo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/echo.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
@@ -58,11 +59,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="misaina.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="misaina.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/examples/misaina.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+            <state relative-caret-position="-17">
+              <caret line="89" column="34" lean-forward="true" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -227,10 +228,10 @@
         <option value="$PROJECT_DIR$/lib/utils/helpers.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/lib/template/ButtonTemplateBuilder.js" />
-        <option value="$PROJECT_DIR$/examples/misaina.js" />
-        <option value="$PROJECT_DIR$/lib/MBot.js" />
         <option value="$PROJECT_DIR$/modules/rive.js" />
         <option value="$PROJECT_DIR$/modules/echo.js" />
+        <option value="$PROJECT_DIR$/lib/MBot.js" />
+        <option value="$PROJECT_DIR$/examples/misaina.js" />
       </list>
     </option>
   </component>
@@ -473,14 +474,7 @@
       <workItem from="1488354543486" duration="18422000" />
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
-      <workItem from="1488731940617" duration="42909000" />
-    </task>
-    <task id="LOCAL-00055" summary="scaff">
-      <created>1488729511986</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1488729511986</updated>
+      <workItem from="1488731940617" duration="43007000" />
     </task>
     <task id="LOCAL-00056" summary="scaff">
       <created>1488729916900</created>
@@ -818,11 +812,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489160868995</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="scaff">
+      <created>1489162385014</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1489162385014</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108608000" />
+    <option name="totallyTimeSpent" value="108706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="4" width="1370" height="744" extended-state="0" />
@@ -1265,14 +1266,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/misaina.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="74" column="16" lean-forward="false" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Conversation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1289,23 +1282,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/MBot.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="376" column="22" lean-forward="true" selection-start-line="376" selection-start-column="22" selection-end-line="376" selection-end-column="22" />
-          <folding>
-            <element signature="e#18942#19346#0" expanded="false" />
-            <element signature="e#19397#21140#0" expanded="false" />
-            <element signature="e#21190#21255#0" expanded="false" />
-            <element signature="e#21301#21363#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/echo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/MBot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="377" column="76" lean-forward="false" selection-start-line="377" selection-start-column="76" selection-end-line="377" selection-end-column="76" />
+          <folding>
+            <element signature="e#18944#19348#0" expanded="false" />
+            <element signature="e#19399#21142#0" expanded="false" />
+            <element signature="e#21192#21257#0" expanded="false" />
+            <element signature="e#21303#21365#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/misaina.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="89" column="34" lean-forward="true" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
           <folding />
         </state>
       </provider>

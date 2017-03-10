@@ -74,7 +74,7 @@ function jouer(chat) {
     function askQuestion(convo) {
         convo.ask({
             text: `Qui est le président des USA ?`,
-            quickReplies: ['Barack Obama', 'Hery Rajaonarimampianina', 'Donald Trump']
+            quick_replies: ['Barack Obama', 'Hery Rajaonarimampianina', 'Donald Trump']
         }, (payload, convo) => {
             const text = payload.message.text;
             convo.set('name', text);
@@ -90,7 +90,7 @@ function jouer(chat) {
     function nextQuestion(convo) {
         convo.ask({
             text: `Où se trouve la mer de la tranquilité?`,
-            quickReplies: ['Entre les îles de la Polynesie', 'Au golf du pôle sud', 'Sur la lune']
+            quick_replies: ['Entre les îles de la Polynesie', 'Au golf du pôle sud', 'Sur la lune']
         }, (payload, convo) => {
             const text = payload.message.text;
             convo.set('name', text);
