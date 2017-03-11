@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js" afterPath="$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/test.js" afterPath="$PROJECT_DIR$/modules/test.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -125,7 +124,7 @@
         <entry file="file://$PROJECT_DIR$/modules/test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -409,14 +408,7 @@
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
       <workItem from="1488731940617" duration="48317000" />
-      <workItem from="1489211690651" duration="8756000" />
-    </task>
-    <task id="LOCAL-00083" summary="scaff">
-      <created>1488998069321</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1488998069321</updated>
+      <workItem from="1489211690651" duration="9132000" />
     </task>
     <task id="LOCAL-00084" summary="scaff">
       <created>1488998262768</created>
@@ -754,11 +746,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489259614648</updated>
     </task>
-    <option name="localTasksCounter" value="132" />
+    <task id="LOCAL-00132" summary="scaff">
+      <created>1489260381513</created>
+      <option name="number" value="00132" />
+      <option name="presentableId" value="LOCAL-00132" />
+      <option name="project" value="LOCAL" />
+      <updated>1489260381513</updated>
+    </task>
+    <option name="localTasksCounter" value="133" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122772000" />
+    <option name="totallyTimeSpent" value="123148000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="4" width="1370" height="744" extended-state="0" />
@@ -1218,7 +1217,7 @@
     <entry file="file://$PROJECT_DIR$/modules/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding />
         </state>
       </provider>
