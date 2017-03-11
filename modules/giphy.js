@@ -1,18 +1,18 @@
 'use strict';
 const fetch = require('node-fetch');
-const GIPHY_URL = `http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=`;
+const Mbot = require('../index');
+const giphy = require('giphy')('dc6zaTOxFJmzC');
+
 module.exports = (bot) => {
     bot.hear(/gif (.*)/i, (payload, chat, data) => {
         const query = data.match[1];
-        fetch(GIPHY_URL + query)
-            .then(res => res.json())
-            .then(json => {
-                chat.say({
-                    attachment: 'image',
-                    url: json.data.image_url
-                }, {
-                    typing: true
-                });
-            });
+        giphy.search({
+            q: query,
+            rating: 'g'
+        }, function(err, search, res){
+            let result = search.data;
+            let oneRandomRes = result[Math.floor(Math.random() * result.length)];
+            chat.sendImageMessage(Mbot.ImageMessageBuilder().setUrl(oneRandomRes.images.fixed_height.url).build());
+        });
     });
 };

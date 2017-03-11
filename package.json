@@ -39,6 +39,8 @@
     "fb": "^1.1.1",
     "franc": "^2.0.0",
     "gender-fr": "^1.0.4",
+    "giphy": "0.0.4",
+    "giphy-api": "^1.2.5",
     "is-online": "^6.1.0",
     "localtunnel": "^1.8.2",
     "natural": "^0.5.0",
