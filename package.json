@@ -12,7 +12,7 @@
     "url": "git+https://github.com/andrijdavid/mbot.git"
   },
   "engines": {
-    "node": "7.6.0"
+    "node": "6.9.0"
   },
   "keywords": [
     "messenger",
@@ -40,7 +40,6 @@
     "franc": "^2.0.0",
     "gender-fr": "^1.0.4",
     "giphy": "0.0.4",
-    "giphy-api": "^1.2.5",
     "is-online": "^6.1.0",
     "localtunnel": "^1.8.2",
     "natural": "^0.5.0",
