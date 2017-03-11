@@ -27,13 +27,13 @@
       <file leaf-file-name="MBot.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/MBot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="228" column="30" lean-forward="false" selection-start-line="228" selection-start-column="30" selection-end-line="228" selection-end-column="30" />
+            <state relative-caret-position="219">
+              <caret line="230" column="13" lean-forward="true" selection-start-line="230" selection-start-column="13" selection-end-line="230" selection-end-column="13" />
               <folding>
-                <element signature="e#19472#19876#0" expanded="false" />
-                <element signature="e#19927#21670#0" expanded="false" />
-                <element signature="e#21720#21785#0" expanded="false" />
-                <element signature="e#21831#21892#0" expanded="false" />
+                <element signature="e#19553#19957#0" expanded="false" />
+                <element signature="e#20008#21751#0" expanded="false" />
+                <element signature="e#21801#21866#0" expanded="false" />
+                <element signature="e#21912#21973#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -420,14 +420,7 @@
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
       <workItem from="1488731940617" duration="48317000" />
-      <workItem from="1489211690651" duration="2567000" />
-    </task>
-    <task id="LOCAL-00074" summary="scaff">
-      <created>1488780512458</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1488780512458</updated>
+      <workItem from="1489211690651" duration="2873000" />
     </task>
     <task id="LOCAL-00075" summary="scaff">
       <created>1488787452496</created>
@@ -765,11 +758,18 @@
       <option name="project" value="LOCAL" />
       <updated>1489250230115</updated>
     </task>
-    <option name="localTasksCounter" value="123" />
+    <task id="LOCAL-00123" summary="scaff">
+      <created>1489252752951</created>
+      <option name="number" value="00123" />
+      <option name="presentableId" value="LOCAL-00123" />
+      <option name="project" value="LOCAL" />
+      <updated>1489252752951</updated>
+    </task>
+    <option name="localTasksCounter" value="124" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116583000" />
+    <option name="totallyTimeSpent" value="116889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="4" width="1370" height="744" extended-state="0" />
@@ -816,7 +816,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/lib/MBot.js</url>
-          <line>438</line>
+          <line>440</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
@@ -1198,13 +1198,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/MBot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="228" column="30" lean-forward="false" selection-start-line="228" selection-start-column="30" selection-end-line="228" selection-end-column="30" />
+        <state relative-caret-position="219">
+          <caret line="230" column="13" lean-forward="true" selection-start-line="230" selection-start-column="13" selection-end-line="230" selection-end-column="13" />
           <folding>
-            <element signature="e#19472#19876#0" expanded="false" />
-            <element signature="e#19927#21670#0" expanded="false" />
-            <element signature="e#21720#21785#0" expanded="false" />
-            <element signature="e#21831#21892#0" expanded="false" />
+            <element signature="e#19553#19957#0" expanded="false" />
+            <element signature="e#20008#21751#0" expanded="false" />
+            <element signature="e#21801#21866#0" expanded="false" />
+            <element signature="e#21912#21973#0" expanded="false" />
           </folding>
         </state>
       </provider>
