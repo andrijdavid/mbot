@@ -4,6 +4,4 @@ module.exports = (bot) => {
         const query = data.match[1];
        bot.post(query, ()=> chat.say('done'));
     });
-};/**
- * Created by CoderBus on 08/03/2017.
- */
+};
