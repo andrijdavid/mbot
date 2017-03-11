@@ -2,7 +2,7 @@
 const RiveScript = require('rivescript');
 const ian = new RiveScript({utf8: true});
 const path = require('path');
-
+const Mbot = require('../index');
 module.exports = (bot) => {
 
     ian.loadDirectory(path.join(__dirname, "../brain"), (batch_num) => {
@@ -14,7 +14,7 @@ module.exports = (bot) => {
         // And now we're free to get a reply from the brain!
         bot.on('message', (payload, chat, data) => {
             if (!data.captured) {
-                console.log('typeof ', bot.TextMessageBuilder);
+                console.log('typeof ', Mbot.TextMessageBuilder);
                 //const msgBuilder = bot.TextMessageBuilder();
                 //msgBuilder.setText(ian.reply("local-user", payload.message.text));
                 chat.say(ian.reply("local-user", payload.message.text));
