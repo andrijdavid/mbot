@@ -1,4 +1,4 @@
-'use strict';
+
 const Mbot = require('../index');
 const Message = require('../lib/Message');
 
