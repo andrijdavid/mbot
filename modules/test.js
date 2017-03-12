@@ -8,7 +8,8 @@ module.exports = (bot) => {
         try {
             let txtmsg = new TextMessageBuilder();
             txtmsg.setText('TextMessageBuilder test');
-            chat.say(txtmsg.build());
+            const msg = txtmsg.build();
+            chat.say(msg);
         } catch (e) {
             console.error(e);
         }
