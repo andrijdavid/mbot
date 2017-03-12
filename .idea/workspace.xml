@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b843c2db-f076-4155-8571-010f0fb049b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Base.js" afterPath="$PROJECT_DIR$/lib/Base.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Chat.js" afterPath="$PROJECT_DIR$/lib/Chat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Conversation.js" afterPath="$PROJECT_DIR$/lib/Conversation.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/MBot.js" afterPath="$PROJECT_DIR$/lib/MBot.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Message.js" afterPath="$PROJECT_DIR$/lib/Message.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,23 +29,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MBot.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MBot.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/MBot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="76" column="23" lean-forward="true" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+            <state relative-caret-position="-561">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
-                <element signature="e#19676#20080#0" expanded="false" />
-                <element signature="e#20131#21874#0" expanded="false" />
-                <element signature="e#21924#21989#0" expanded="false" />
-                <element signature="e#22035#22096#0" expanded="false" />
+                <element signature="e#15#41#0" expanded="true" />
+                <element signature="e#19640#20044#0" expanded="false" />
+                <element signature="e#20095#21838#0" expanded="false" />
+                <element signature="e#21888#21953#0" expanded="false" />
+                <element signature="e#21999#22060#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileMessageBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/message/FileMessageBuilder.js">
+      <file leaf-file-name="AudioMessageBuilder.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/message/AudioMessageBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
@@ -52,9 +58,31 @@
       <file leaf-file-name="AttachmentMessageBuilder.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="giphy.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/giphy.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Base.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Base.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#62#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,8 +90,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,32 +107,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TextMessageBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/message/TextMessageBuilder.js">
+      <file leaf-file-name="Chat.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Chat.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-              <folding />
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#55#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VideoMessageBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/message/VideoMessageBuilder.js">
+      <file leaf-file-name="Conversation.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/Conversation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageMessageBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/message/ImageMessageBuilder.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="2584">
+              <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+              <folding>
+                <element signature="e#14#40#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -112,19 +134,11 @@
       <file leaf-file-name="Message.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/Message.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="127" column="26" lean-forward="true" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickRepliesMessageBuilder.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/message/QuickRepliesMessageBuilder.js">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-              <folding />
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,12 +179,14 @@
       <find>new S</find>
       <find>chain</find>
       <find>error</find>
+      <find>= require(</find>
     </findStrings>
     <replaceStrings>
       <replace>MBot</replace>
       <replace>this</replace>
       <replace>#{name}</replace>
       <replace>Test</replace>
+      <replace>from</replace>
     </replaceStrings>
     <dirStrings>
       <dir>F:\project\mbot\lib</dir>
@@ -192,7 +208,6 @@
         <option value="$PROJECT_DIR$/lib/template/ListTemplateBuilder.js" />
         <option value="$PROJECT_DIR$/lib/template/ListElementTemplateBuilder.js" />
         <option value="$PROJECT_DIR$/lib/button/AccountLinkingButtonBuilder.js" />
-        <option value="$PROJECT_DIR$/lib/Conversation.js" />
         <option value="$PROJECT_DIR$/lib/button/AccountLinkButtonBuilder.js" />
         <option value="$PROJECT_DIR$/lib/button/AccountUnlinkButtonBuilder.js" />
         <option value="$PROJECT_DIR$/lib/button/BuyButtonBuilder.js" />
@@ -223,11 +238,8 @@
         <option value="$PROJECT_DIR$/modules/rive.js" />
         <option value="$PROJECT_DIR$/lib/ResponsePreprocessor/UpperCaseResponsePreprocessor.js" />
         <option value="$PROJECT_DIR$/lib/ResponsePreprocessor/BaseResponsePreprocessor.js" />
-        <option value="$PROJECT_DIR$/lib/Chat.js" />
         <option value="$PROJECT_DIR$/modules/giphy.js" />
-        <option value="$PROJECT_DIR$/lib/Base.js" />
         <option value="$PROJECT_DIR$/modules/post.js" />
-        <option value="$PROJECT_DIR$/lib/Message.js" />
         <option value="$PROJECT_DIR$/modules/test.js" />
         <option value="$PROJECT_DIR$/lib/message/AudioMessageBuilder.js" />
         <option value="$PROJECT_DIR$/lib/message/FileMessageBuilder.js" />
@@ -236,9 +248,13 @@
         <option value="$PROJECT_DIR$/lib/message/TextMessageBuilder.js" />
         <option value="$PROJECT_DIR$/lib/message/VideoMessageBuilder.js" />
         <option value="$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/lib/Chat.js" />
+        <option value="$PROJECT_DIR$/lib/Base.js" />
+        <option value="$PROJECT_DIR$/lib/Message.js" />
         <option value="$PROJECT_DIR$/lib/MBot.js" />
+        <option value="$PROJECT_DIR$/lib/Conversation.js" />
       </list>
     </option>
   </component>
@@ -286,20 +302,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mbot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mbot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mbot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -428,21 +430,7 @@
       <workItem from="1488522710883" duration="34162000" />
       <workItem from="1488654652572" duration="12984000" />
       <workItem from="1488731940617" duration="48317000" />
-      <workItem from="1489211690651" duration="12507000" />
-    </task>
-    <task id="LOCAL-00088" summary="scaff">
-      <created>1489000024498</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1489000024498</updated>
-    </task>
-    <task id="LOCAL-00089" summary="scaff">
-      <created>1489000190401</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1489000190401</updated>
+      <workItem from="1489211690651" duration="14812000" />
     </task>
     <task id="LOCAL-00090" summary="scaff">
       <created>1489000634246</created>
@@ -773,25 +761,39 @@
       <option name="project" value="LOCAL" />
       <updated>1489262060923</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="scaff">
+      <created>1489337855936</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1489337855936</updated>
+    </task>
+    <task id="LOCAL-00138" summary="scaff">
+      <created>1489338386534</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1489338386534</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126523000" />
+    <option name="totallyTimeSpent" value="128828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="4" width="1370" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18093093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.503003" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.496997" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32569557" sideWeight="0.496997" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -980,6 +982,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -994,6 +997,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,14 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="98" column="13" lean-forward="true" selection-start-line="98" selection-start-column="13" selection-end-line="98" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Conversation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1089,17 +1085,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Chat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="123" column="17" lean-forward="false" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
-          <folding>
-            <marker date="1489254205670" expanded="true" signature="277:3966" ph="{...}" />
-            <marker date="1489254205670" expanded="true" signature="3640:3856" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/ResponsePreprocessor/UpperCaseResponsePreprocessor.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1118,14 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/giphy.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/post.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1134,23 +1111,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/message/AudioMessageBuilder.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
@@ -1198,22 +1159,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" lean-forward="false" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1222,23 +1167,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/message/AudioMessageBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/message/AttachmentMessageBuilder.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/giphy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/Message.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="127" column="26" lean-forward="true" selection-start-line="127" selection-start-column="26" selection-end-line="127" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/MBot.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="76" column="23" lean-forward="true" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+        <state relative-caret-position="-561">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#19676#20080#0" expanded="false" />
-            <element signature="e#20131#21874#0" expanded="false" />
-            <element signature="e#21924#21989#0" expanded="false" />
-            <element signature="e#22035#22096#0" expanded="false" />
+            <element signature="e#15#41#0" expanded="true" />
+            <element signature="e#19640#20044#0" expanded="false" />
+            <element signature="e#20095#21838#0" expanded="false" />
+            <element signature="e#21888#21953#0" expanded="false" />
+            <element signature="e#21999#22060#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Conversation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="152" column="0" lean-forward="false" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
+          <folding>
+            <element signature="e#14#40#0" expanded="true" />
           </folding>
         </state>
       </provider>

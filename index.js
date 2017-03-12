@@ -1,3 +1,4 @@
 'use strict';
-const MBot = require('./lib/MBot');
-module.exports = MBot;
+import Mbot from './lib/MBot';
+
+export default MBot;
