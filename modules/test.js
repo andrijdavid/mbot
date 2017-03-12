@@ -7,8 +7,8 @@ module.exports = (bot) => {
         chat.say('Auto test');
         try {
             let txtmsg = new TextMessageBuilder();
-            txtmsg.setText('TextMessageBuilder test').build();
-            chat.say(txtmsg);
+            txtmsg.setText('TextMessageBuilder test');
+            chat.say(txtmsg.build());
         } catch (e) {
             console.error(e);
         }
