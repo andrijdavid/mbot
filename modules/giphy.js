@@ -12,7 +12,9 @@ module.exports = (bot) => {
         }, function(err, search, res){
             let result = search.data;
             let oneRandomRes = result[Math.floor(Math.random() * result.length)];
-            chat.sendImageMessage(Mbot.ImageMessageBuilder().setUrl(oneRandomRes.images.fixed_height.url).build());
+            const imgBuilder = Mbot.ImageMessageBuilder();
+            imgBuilder.setUrl(oneRandomRes.images.fixed_height.url);
+            chat.sendImageMessage(imgBuilder.build());
         });
     });
 };
