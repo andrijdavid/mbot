@@ -1,12 +1,13 @@
 'use strict';
 const Mbot = require('../index');
 const Message = require('../lib/Message');
-
+const TextMessageBuilder = require('../lib/message/TextMessageBuilder');
 module.exports = (bot) => {
     bot.hear('test', (payload, chat) => {
         chat.say('Auto test');
         try {
-            let txtmsg = Mbot.TextMessageBuilder().setText('TextMessageBuilder test').build();
+            let txtmsg = new TextMessageBuilder();
+            txtmsg.setText('TextMessageBuilder test').build();
             chat.say(txtmsg);
         } catch (e) {
             console.error(e);
